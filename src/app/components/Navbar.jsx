@@ -1,0 +1,109 @@
+'use client';
+
+import Image from 'next/image';
+import { TextAlignJustify, X } from 'lucide-react';
+import { useState } from 'react';
+import Link from 'next/link';
+import { Trispace } from 'next/font/google';
+
+const trispace = Trispace({
+	display: 'swap',
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+});
+
+const Navbar = () => {
+	const [isOpen, setIsOpen] = useState(false);
+
+	return (
+		<div className="fixed z-50 top-0 w-full">
+			{/* Top Navbar */}
+			<div className="flex items-center justify-between px-6 py-4 bg-white shadow-md xl:px-72">
+				{/* Logo */}
+				<Link href="/">
+					<Image
+						src="/TWILogo.png"
+						alt="TWI logo"
+						width={48}
+						height={48}
+						className=""
+					/>
+				</Link>
+				{/* <Link href="/"> */}
+					<div
+						className={`${trispace.className} text-2xl absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
+					>
+						<Link href='/'>Truckyyy</Link>
+					</div>
+				{/* </Link> */}
+				{/* Hamburger Icon */}
+				<TextAlignJustify
+					color="black"
+					size={24}
+					onClick={() => setIsOpen(true)}
+					className="xl:hidden"
+				/>
+				<div className="hidden xl:block">
+					<div className="flex items-center gap-4">
+						<div className="text-xl">Join Us</div>
+						<Link href="/contact">
+							<button className="bg-blue-600 py-2 tracking-wide text-xl font-semibold text-white px-4 rounded-md">
+								Contact Us
+							</button>
+						</Link>
+					</div>
+				</div>
+			</div>
+
+			{/* Overlay */}
+			{isOpen && (
+				<div
+					className="fixed inset-0 bg-opacity-50 z-40"
+					onClick={() => setIsOpen(false)}
+				/>
+			)}
+
+			{/* Slide-In Menu */}
+			<div
+				className={`fixed top-0 right-0 h-full w-64  bg-white shadow-2xl z-50 transform transition-transform duration-300 ${
+					isOpen ? 'translate-x-0' : 'translate-x-full'
+				}`}
+			>
+				{/* Close Button */}
+				<X
+					className="absolute top-8 right-8 text-2xl"
+					onClick={() => setIsOpen(false)}
+					size={24}
+					color="black"
+				/>
+
+				{/* Menu Items */}
+				<nav className="mt-16 flex flex-col px-6 space-y-2">
+					<Link
+						href="/"
+						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
+						onClick={() => setIsOpen(false)}
+					>
+						Home
+					</Link>
+					<Link
+						href="/about"
+						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
+						onClick={() => setIsOpen(false)}
+					>
+						About Us
+					</Link>
+					<Link href="/contact">
+						<button
+							href="#"
+							className="block text-lg tracking-wide text-white bg-blue-700 w-full py-1 rounded-md"
+							onClick={() => setIsOpen(false)}
+						>
+							Contact Us
+						</button>
+					</Link>
+				</nav>
+			</div>
+		</div>
+	);
+};
+export default Navbar;
