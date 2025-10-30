@@ -6,8 +6,8 @@ const About = () => {
 		<div className="">
 			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
 							<Image
-								src="/team.jpg" // Replace with your actual image path
-								alt="Freight Truck on Coastal Highway"
+								src="/team.jpg"
+								alt="TWI Team"
 								fill
 								className="object-cover"
 								priority
@@ -15,7 +15,7 @@ const About = () => {
 						</div>
 			<div className="w-full flex-col flex items-center py-6 gap-4 px-4 bg-orange-100">
 				<h1 className="font-semibold row-span-1 text-yellow-950 text-2xl text-center md:text-4xl">
-					About Transport Wings (Cal) <br className="lg:hidden" /> Pvt. Ltd
+					About Transport Wings (Cal) <br className="lg:hidden"/> Pvt. Ltd
 				</h1>
 				<p className="text-center text-lg md:text-2xl md:max-w-2/4">
 					Transport Wings (Cal) Pvt. Ltd. has been a market leader in logistics.
