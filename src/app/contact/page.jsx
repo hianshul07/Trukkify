@@ -3,14 +3,20 @@ import Image from 'next/image';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Send, Phone, Mail, MapPinHouse } from 'lucide-react';
+import { Trispace } from 'next/font/google';
 import Footer from '../components/Footer';
+
+const trispace = Trispace({
+	display: 'swap',
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+});
 
 const Contact = () => {
 	return (
 		<div>
 			{/* <Navbar /> */}
 			<div className="mt-20 w-full flex-col flex items-center py-6 text-2xl gap-4 px-2 bg-orange-100">
-				<h1 className="font-semibold text-yellow-950 md:text-4xl">
+				<h1 className={`${trispace.className} font-semibold text-yellow-950 tracking-tight md:text-4xl`}>
 					Get in Touch with Us
 				</h1>
 				<p className="text-center text-lg md:text-2xl md:max-w-2/4">

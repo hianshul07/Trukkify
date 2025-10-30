@@ -1,21 +1,27 @@
 import Image from 'next/image';
 import LeadershipCard from '../components/LeadershipCard';
+import { Trispace } from 'next/font/google';
+
+const trispace = Trispace({
+	display: 'swap',
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+});
 
 const About = () => {
 	return (
 		<div className="">
 			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
-							<Image
-								src="/team.JPG"
-								alt="TWI Team"
-								fill
-								className="object-cover"
-								priority
-							/>
-						</div>
+				<Image
+					src="/team.JPG"
+					alt="TWI Team"
+					fill
+					className="object-cover"
+					priority
+				/>
+			</div>
 			<div className="w-full flex-col flex items-center py-6 gap-4 px-4 bg-orange-100">
-				<h1 className="font-semibold row-span-1 text-yellow-950 text-2xl text-center md:text-4xl">
-					About Transport Wings (Cal) <br className="lg:hidden"/> Pvt. Ltd
+				<h1 className={`${trispace.className} font-semibold row-span-1 tracking-tight text-yellow-950 text-2xl text-center md:text-4xl`}>
+					About Transport Wings (Cal) <br className="lg:hidden" /> Pvt. Ltd
 				</h1>
 				<p className="text-center text-lg md:text-2xl md:max-w-2/4">
 					Transport Wings (Cal) Pvt. Ltd. has been a market leader in logistics.
@@ -29,10 +35,10 @@ const About = () => {
 			</div>
 
 			<div className="flex flex-col items-center mb-16">
-				<h3 className="mt-8 mb-2 font-semibold text-2xl lg:text-4xl text-blue-800">
+				<h3 className={`${trispace.className} mt-8 mb-2 tracking-tight font-semibold text-2xl lg:text-4xl text-blue-800`}>
 					Our Leadership
 				</h3>
-				<h4 className="mb-4 font-semibold textx lg:text-2xl text-gray-800">
+				<h4 className={`${trispace.className} mb-4 tracking-tight font-semibold textx lg:text-2xl text-gray-800`}>
 					One Vision One Team
 				</h4>
 				<p className="text-gray-800 ml-8 mb-8 lg:max-w-2/4 lg:text-center text-2xl">
@@ -45,24 +51,24 @@ const About = () => {
 			{/* Core Values */}
 
 			<div className="w-full flex flex-col items-center px-4">
-				<div className="rounded-xl bg-white lg:w-3/5 border-2 border-gray-200 shadow-lg w-full flex flex-col lg:flex-row items-center p-4 mb-8 gap-4">
+				<div className="rounded-xl bg-white lg:w-3/5 border-2 border-gray-200 shadow-lg w-full flex flex-col lg:flex-row items-center p-4 mb-8 gap-8">
 					<div className=" relative w-full h-full flex-1">
 						<img
 							src="/industry.png"
 							alt="core values image "
-							className="rounded-md  w-full h-fit"
+							className="rounded-md w-full h-fit"
 						/>
 					</div>
 					<div className="flex-1 font-semibold">
-						<h4 className="text-2xl mb-2 lg:text-left text-center">
+						<h4 className={`${trispace.className } text-2xl mb-2 lg:text-left text-center`}>
 							Industires We Serve
 						</h4>
 						<ul className="list-disc px-5 pb-2">
 							<li>
-								<span className="text-2xl font-normal">
+								<span className="text-2xl lg:text-xl font-normal">
 									Agriculture & Agri-Supply:
 								</span>{' '}
-								<p className="text-xl text-gray-700">
+								<p className="text-xl lg:text-lg text-gray-700">
 									Agri-input companies and bulk commodity traders use the
 									platform to dispatch seasonal loads efficiently, ensuring
 									timely delivery to mandis, warehouses, and processing units.
@@ -88,10 +94,10 @@ const About = () => {
 								</p>
 							</li> */}
 							<li>
-								<span className="text-2xl font-normal">
+								<span className="text-2xl lg:text-xl font-normal">
 									Cold Chain & Perishables:
 								</span>{' '}
-								<p className="text-xl text-gray-700">
+								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									Food processors, pharma distributors, and dairy cooperatives
 									rely on temperature-aware transport and live tracking to
@@ -99,10 +105,10 @@ const About = () => {
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl font-normal">
+								<span className="text-2xl lg:text-xl font-normal">
 									Manufacturing & Industrial:
 								</span>{' '}
-								<p className="text-xl text-gray-700">
+								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									Factories and industrial suppliers post inbound and outbound
 									loads, match with compliant carriers, and automate
@@ -110,10 +116,10 @@ const About = () => {
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl font-normal">
+								<span className="text-2xl lg:text-xl font-normal">
 									Chemicals & Regulated Goods:
 								</span>{' '}
-								<p className="text-xl text-gray-700">
+								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									Chemical manufacturers and fuel suppliers use the platform to
 									ensure safe, compliant transport of regulated materials with
@@ -124,7 +130,7 @@ const About = () => {
 					</div>
 				</div>
 
-				<div className="rounded-xl bg-white lg:w-3/5 border-2 border-gray-200 shadow-lg w-full flex flex-col lg:flex-row items-center p-4 mb-8 gap-4">
+				<div className="rounded-xl bg-white lg:w-3/5 border-2 border-gray-200 shadow-lg w-full flex flex-col lg:flex-row items-center p-4 mb-8 gap-4 lg:gap-8">
 					<div className=" relative w-full h-full flex-1">
 						<img
 							src="/values-2.jpeg"
@@ -133,17 +139,21 @@ const About = () => {
 						/>
 					</div>
 					<div className="flex-1 font-semibold">
-						<h4 className="text-2xl text-center lg:text-left">Core values</h4>
+						<h4 className={`${trispace.className} text-2xl text-center lg:text-left`}>Core values</h4>
 						<ul className="list-disc px-5 pb-2">
 							<li>
-								<span className="text-2xl lg:text-xl font-normal">Integrity:</span>{' '}
+								<span className="text-2xl lg:text-xl font-normal">
+									Integrity:
+								</span>{' '}
 								<p className="text-xl lg:text-lg text-gray-700">
 									We uphold the highest ethical standards in all our dealings,
 									fostering trust and transparency with clients and partners.
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl lg:text-xl font-normal">Excellence:</span>{' '}
+								<span className="text-2xl lg:text-xl font-normal">
+									Excellence:
+								</span>{' '}
 								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									We strive for excellence in every aspect of our services,
@@ -152,14 +162,18 @@ const About = () => {
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl lg:text-xl font-normal">Innovation:</span>
+								<span className="text-2xl lg:text-xl font-normal">
+									Innovation:
+								</span>
 								<p className="text-xl lg:text-lg text-gray-700">
 									We embrace innovative solutions and technologies to enhance
 									our logistics processes and provide cutting-edge services.
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl lg:text-xl font-normal">Customer Focus:</span>{' '}
+								<span className="text-2xl lg:text-xl font-normal">
+									Customer Focus:
+								</span>{' '}
 								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									Our clients are at the heart of everything we do, and we are
@@ -168,7 +182,9 @@ const About = () => {
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl lg:text-xl font-normal">Collaboration:</span>{' '}
+								<span className="text-2xl lg:text-xl font-normal">
+									Collaboration:
+								</span>{' '}
 								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									We believe in the power of teamwork and partnerships, working
