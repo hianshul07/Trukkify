@@ -29,7 +29,7 @@ export default function Home() {
 						Streamline Your Freight Operations with
 					</h2>
 					<h1
-						className={`${trispace.className} text-3xl md:text-4xl font-semibold text-blue-700 mt-1`}
+						className={`${trispace.className} tracking-tight text-3xl md:text-4xl font-semibold text-blue-700 mt-1`}
 					>
 						Truckky
 					</h1>
@@ -38,7 +38,7 @@ export default function Home() {
 			{/* section smart logistics */}
 			<div className="w-full flex-col flex items-center text-center  py-6 lg:py-8 text-2xl gap-4 px-2 bg-orange-100">
 				<h1
-					className={`${trispace.className} font-semibold text-red-950 text-3xl lg:text-4xl`}
+					className={`${trispace.className} tracking-tight font-semibold text-red-950 text-3xl lg:text-4xl`}
 				>
 					Smart logistics. <br className="lg:hidden" /> Seamless delivery.
 				</h1>
@@ -96,7 +96,7 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col lg:order-1 justify-center lg:items-start items-center flex-1">
 						<h1
-							className={`${trispace.className} text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
+							className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
 						>
 							Coordinate. Deliver. Grow.
 						</h1>
@@ -126,7 +126,7 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col justify-center lg:items-end items-center flex-1">
 						<h1
-							className={`${trispace.className} text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
+							className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
 						>
 							Post. Match. Monitor.
 						</h1>
@@ -136,7 +136,7 @@ export default function Home() {
 							shipping locally or across states, enjoy peace of mind with
 							transparent communication and delivery updates.
 						</p>
-						<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold w-fit hover:bg-blue-700">
+						<button className={`flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold w-fit hover:bg-blue-700`}>
 							Join Now <ArrowUpRight size={28} />
 						</button>
 					</div>
@@ -181,7 +181,7 @@ export default function Home() {
 			</div>
 
 			<div className="flex flex-col items-center justify-center mb-8">
-				<h3 className="lg:mt-8 mb-8 text-3xl lg:text-4xl font-semibold text-blue-800">
+				<h3 className={`${trispace.className} tracking-tight lg:mt-8 mb-8 text-3xl lg:text-4xl font-semibold text-blue-800`}>
 					Core Advantages{' '}
 				</h3>
 
@@ -243,7 +243,7 @@ export default function Home() {
 			{/* how it works */}
 
 			<div className="flex flex-col items-center">
-				<h3 className="mt-8 mb-8 font-semibold text-4xl text-blue-800">
+				<h3 className={`${trispace.className} tracking-tight mt-8 mb-8 font-semibold text-4xl text-blue-800`}>
 					How Truckyyy Works
 				</h3>
 				<div>
@@ -266,7 +266,7 @@ export default function Home() {
 
 			<div className=" flex flex-col justify-center items-center px-8">
 				<div className=" lg:w-2/5 flex flex-col justify-center items-center">
-					<h3 className="mt-8 mb-2 font-semibold text-3xl text-nowrap lg:text-4xl text-blue-800">
+					<h3 className={`${trispace.className} tracking-tight mt-8 mb-2 font-semibold text-3xl text-nowrap lg:text-4xl text-blue-800`}>
 						Download Truckyyy Now
 					</h3>
 					<p className="text-center text-xl lg:text-2xl ">
