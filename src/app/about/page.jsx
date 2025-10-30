@@ -6,7 +6,7 @@ const About = () => {
 		<div className="">
 			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
 							<Image
-								src="@/team.jpg"
+								src="/team.JPG"
 								alt="TWI Team"
 								fill
 								className="object-cover"
