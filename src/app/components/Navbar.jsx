@@ -29,11 +29,11 @@ const Navbar = () => {
 					/>
 				</Link>
 				{/* <Link href="/"> */}
-					<div
-						className={`${trispace.className} text-2xl absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
-					>
-						<Link href='/'>Truckyyy</Link>
-					</div>
+				<div
+					className={`${trispace.className} text-2xl absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
+				>
+					<Link href="/">Truckyyy</Link>
+				</div>
 				{/* </Link> */}
 				{/* Hamburger Icon */}
 				<TextAlignJustify
@@ -44,7 +44,9 @@ const Navbar = () => {
 				/>
 				<div className="hidden xl:block">
 					<div className="flex items-center gap-4">
-						<div className="text-xl">Join Us</div>
+						<Link href='/about'>
+							<div className="text-xl">About Us</div>
+						</Link>
 						<Link href="/contact">
 							<button className="bg-blue-600 py-2 tracking-wide text-xl font-semibold text-white px-4 rounded-md">
 								Contact Us

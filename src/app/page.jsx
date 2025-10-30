@@ -275,7 +275,7 @@ export default function Home() {
 						iOS.
 					</p>
 				</div>
-				<div className="flex flex-col lg:flex-row my-8 gap-12">
+				<div className="flex flex-col lg:flex-row my-12 gap-12">
 					<div className="flex flex-col gap-4 items-center">
 						<Image
 							src="/android.png"
