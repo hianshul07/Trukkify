@@ -136,15 +136,15 @@ const About = () => {
 						<h4 className="text-2xl text-center lg:text-left">Core values</h4>
 						<ul className="list-disc px-5 pb-2">
 							<li>
-								<span className="text-2xl font-normal">Integrity:</span>{' '}
-								<p className="text-xl text-gray-700">
+								<span className="text-2xl lg:text-xl font-normal">Integrity:</span>{' '}
+								<p className="text-xl lg:text-lg text-gray-700">
 									We uphold the highest ethical standards in all our dealings,
 									fostering trust and transparency with clients and partners.
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl font-normal">Excellence:</span>{' '}
-								<p className="text-xl text-gray-700">
+								<span className="text-2xl lg:text-xl font-normal">Excellence:</span>{' '}
+								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									We strive for excellence in every aspect of our services,
 									continually improving to meet and exceed customer
@@ -152,15 +152,15 @@ const About = () => {
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl font-normal">Innovation:</span>
-								<p className="text-xl text-gray-700">
+								<span className="text-2xl lg:text-xl font-normal">Innovation:</span>
+								<p className="text-xl lg:text-lg text-gray-700">
 									We embrace innovative solutions and technologies to enhance
 									our logistics processes and provide cutting-edge services.
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl font-normal">Customer Focus:</span>{' '}
-								<p className="text-xl text-gray-700">
+								<span className="text-2xl lg:text-xl font-normal">Customer Focus:</span>{' '}
+								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									Our clients are at the heart of everything we do, and we are
 									dedicated to understanding and fulfilling their unique
@@ -168,8 +168,8 @@ const About = () => {
 								</p>
 							</li>
 							<li>
-								<span className="text-2xl font-normal">Collaboration:</span>{' '}
-								<p className="text-xl text-gray-700">
+								<span className="text-2xl lg:text-xl font-normal">Collaboration:</span>{' '}
+								<p className="text-xl lg:text-lg text-gray-700">
 									{' '}
 									We believe in the power of teamwork and partnerships, working
 									closely with clients and stakeholders to achieve shared
