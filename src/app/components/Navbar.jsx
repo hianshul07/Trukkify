@@ -79,7 +79,7 @@ const Navbar = () => {
 				/>
 
 				{/* Menu Items */}
-				<nav className="mt-16 flex flex-col px-6 space-y-2">
+				<nav className="mt-20 flex flex-col px-6 space-y-4">
 					<Link
 						href="/"
 						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
@@ -97,7 +97,7 @@ const Navbar = () => {
 					<Link href="/contact">
 						<button
 							href="#"
-							className="block text-lg tracking-wide text-white bg-blue-700 w-full py-1 rounded-md"
+							className="block text-lg tracking-wide text-white bg-blue-700 w-full py-1 mt-2 rounded-md"
 							onClick={() => setIsOpen(false)}
 						>
 							Contact Us
