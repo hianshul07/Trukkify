@@ -65,12 +65,12 @@ const Footer = () => {
 					<div className=""></div>
 					<div className='flex flex-col gap-2'>
 						<div className="flex items-center gap-2 ">
-							<Clock className="mt-1" /> <a>Mon - Sat: 9:00 - 18:00</a>
+							<Clock className="mt-1" /> <a>Mon - Sat: 9:30 - 18:30</a>
 						</div>
 						<div className="flex items-center gap-2">
 							<Mail className="mt-1" />
 							<a href="mailto:ces@usli.in" className="hover:underline text-xl">
-								ces@usli.in
+								ces@twcpl.in
 							</a>
 						</div>
 						<div className="flex items-center gap-2">

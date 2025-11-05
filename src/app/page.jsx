@@ -32,7 +32,7 @@ export default function Home() {
 					<h1
 						className={`${trispace.className} tracking-tight text-3xl md:text-4xl font-semibold text-blue-700 mt-1`}
 					>
-						Truckky
+						Trukkify
 					</h1>
 				</div>
 			</div>
@@ -44,7 +44,7 @@ export default function Home() {
 					Smart logistics. <br className="lg:hidden" /> Seamless delivery.
 				</h1>
 				<p className="text-center text-xl lg:text-2xl lg:max-w-2/4">
-					TWI Exchange connects customers who need to ship cargo with trusted
+					Trukkify connects customers who need to ship cargo with trusted
 					truck drivers across India. Manage contracts, track deliveries, and
 					communicate — all in one streamlined logistics app.
 				</p>
@@ -64,7 +64,7 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col lg:order-1 justify-center lg:items-start items-center flex-1 relative">
 						<div>
-							<p className={` ${trispace.className} text-gray-500 font-semibold mb-1 text-lg`}>For Carriers</p>
+							<p className={` ${trispace.className} text-gray-500 font-semibold mb-1 text-center lg:text-left text-lg`}>For Carriers</p>
 							<h1
 								className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
 							>
@@ -98,7 +98,7 @@ export default function Home() {
 					<div className="flex flex-col justify-center lg:items-end items-center flex-1">
 						<div>
 							<p
-								className={` ${trispace.className} text-gray-500 font-semibold text-right mr-2 mb-1 text-lg`}
+								className={` ${trispace.className} text-gray-500 font-semibold text-center lg:text-right mr-2 mb-1 text-lg`}
 							>
 								For Customers
 							</p>
@@ -109,7 +109,7 @@ export default function Home() {
 							</h1>
 						</div>
 						<p className="text-center lg:text-right text-xl text-gray-700 mb-6">
-							Use TWI Exchange to find verified truck drivers, create secure
+							Use Trukkify to find verified truck drivers, create secure
 							contracts, and monitor your cargo in real time. Whether you're
 							shipping locally or across states, enjoy peace of mind with
 							transparent communication and delivery updates.
@@ -228,7 +228,7 @@ export default function Home() {
 				<h3
 					className={`${trispace.className} tracking-tight mt-8 mb-8 font-semibold text-4xl text-blue-800`}
 				>
-					How Truckyyy Works
+					How Trukkify Works
 				</h3>
 				<div>
 					<HowWorks
@@ -253,7 +253,7 @@ export default function Home() {
 					<h3
 						className={`${trispace.className} tracking-tight mt-8 mb-2 font-semibold text-3xl text-nowrap lg:text-4xl text-blue-800`}
 					>
-						Download Truckyyy Now
+						Download Trukkify Now
 					</h3>
 					<p className="text-center text-xl lg:text-2xl ">
 						Manage your shipments, contracts, and fleet operations on the go.

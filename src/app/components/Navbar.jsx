@@ -32,7 +32,7 @@ const Navbar = () => {
 				<div
 					className={`${trispace.className} text-2xl absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
 				>
-					<Link href="/">Truckyyy</Link>
+					<Link href="/">Trukkify</Link>
 				</div>
 				{/* </Link> */}
 				{/* Hamburger Icon */}
