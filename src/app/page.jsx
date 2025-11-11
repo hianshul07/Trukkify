@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import { Trispace } from 'next/font/google';
 import FeatureCard from './components/FeatureCard';
 import { ArrowUpRight } from 'lucide-react';
@@ -13,8 +14,8 @@ const trispace = Trispace({
 
 export default function Home() {
 	return (
-		<div className="overflow-hidden">
-			{/* <Navbar /> */}
+		<div className="overflow-hidden font-lato">
+			<Navbar />
 			{/* Hero section */}
 			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
 				<Image
@@ -43,10 +44,10 @@ export default function Home() {
 				>
 					Smart logistics. <br className="lg:hidden" /> Seamless delivery.
 				</h1>
-				<p className="text-center text-xl lg:text-2xl lg:max-w-2/4">
+				<p className="text-center text-xl lg:text-2xl lg:max-w-2/4 font-lato">
 					Trukkify connects customers who need to ship cargo with trusted
 					truck drivers across India. Manage contracts, track deliveries, and
-					communicate — all in one streamlined logistics app.
+					communicate - all in one streamlined logistics app.
 				</p>
 			</div>
 
@@ -108,7 +109,7 @@ export default function Home() {
 								Post. Match. Monitor.
 							</h1>
 						</div>
-						<p className="text-center lg:text-right text-xl text-gray-700 mb-6">
+						<p className="text-center lg:text-right text-xl text-gray-700 mb-6 font-lato">
 							Use Trukkify to find verified truck drivers, create secure
 							contracts, and monitor your cargo in real time. Whether you're
 							shipping locally or across states, enjoy peace of mind with
@@ -291,6 +292,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 }

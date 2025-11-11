@@ -1,27 +1,32 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import Image from 'next/image';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Send, Phone, Mail, MapPinHouse } from 'lucide-react';
-import { Trispace } from 'next/font/google';
+import { Trispace, Noto_Sans_Devanagari } from 'next/font/google';
 
 const trispace = Trispace({
 	display: 'swap',
 	weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
 });
 
+const notoHindi = Noto_Sans_Devanagari({
+	display: 'swap',
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+});
+
 const Contact = () => {
 	return (
-		<div>
-			<Navbar />
+		<div className={`${notoHindi.className}`}>
+			{/* <Navbar /> */}
 			<div className="mt-20 w-full flex-col flex items-center py-6 text-2xl gap-4 px-2 bg-orange-100">
-				<h1 className={`${trispace.className} font-semibold text-yellow-950 tracking-tight md:text-4xl`}>
-					Get in Touch with Us
+				<h1
+					className={`${trispace.className} font-semibold text-yellow-950 tracking-tight md:text-4xl`}
+				>
+					हमसे संपर्क करें
 				</h1>
 				<p className="text-center text-lg md:text-2xl md:max-w-2/4">
-					Have questions or need assistance? Our team is here to help you
-					streamline your logistics operations. Reach out anytime!
+					कोई सवाल है या मदद चाहिए? हमारी टीम आपके लॉजिस्टिक्स काम को आसान बनाने
+					में आपकी पूरी सहायता करेगी। जब भी ज़रूरत हो, बेझिझक संपर्क करें।
 				</p>
 			</div>
 			<div className="block md:hidden">
@@ -95,7 +100,7 @@ const Contact = () => {
 							<div id="inputs" className="flex flex-col gap-2">
 								<div className="flex flex-col space-y-1">
 									<label htmlFor="name" className="md:text-xl md:font-semibold">
-										Name*
+										नाम*
 									</label>
 									<Input
 										id="name"
@@ -108,7 +113,7 @@ const Contact = () => {
 										htmlFor="company"
 										className="md:text-xl md:font-semibold"
 									>
-										Company Name
+										कंपनी का नाम
 									</label>
 									<Input
 										id="company"
@@ -118,7 +123,7 @@ const Contact = () => {
 								</div>
 								<div className="flex flex-col space-y-1">
 									<label htmlFor="name" className="md:text-xl md:font-semibold">
-										Email*
+										ईमेल*
 									</label>
 									<Input
 										id="email"
@@ -128,7 +133,7 @@ const Contact = () => {
 								</div>
 								<div className="flex flex-col space-y-1">
 									<label htmlFor="name" className="md:text-xl md:font-semibold">
-										Phone
+										फ़ोन
 									</label>
 									<Input
 										id="phone"
@@ -141,7 +146,7 @@ const Contact = () => {
 										htmlFor="message"
 										className="md:text-xl md:font-semibold"
 									>
-										Message*
+										संदेश*
 									</label>
 									<Textarea
 										id="message"
@@ -153,7 +158,7 @@ const Contact = () => {
 							</div>
 
 							<button className="flex w-full tracking-wide rounded-md hover:cursor-pointer hover:scale-102 transition-all bg-blue-600 items-center justify-center py-2 text-white text-xl gap-2">
-								Send
+								भेजें
 								<Send color="white" size={20} />
 							</button>
 						</div>
@@ -194,13 +199,13 @@ const Contact = () => {
 							Contact Us
 						</h2>
 						<ul className="space-y-2">
-							<li className="flex gap-2">
+							{/* <li className="flex gap-2">
 								<Mail className="mt-1" />
 								<span className="md:text-xl">greenearthpaper@gmail.com</span>
-							</li>
+							</li> */}
 							<li className="flex gap-2">
 								<Mail className="mt-1" />
-								<span className="md:text-xl">siddharthtsl.net.in</span>
+								<span className="md:text-xl">ces@twcpl.in</span>
 							</li>
 							<li className="flex gap-2">
 								<Phone className="mt-1" />
@@ -241,7 +246,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</section>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 };

@@ -12,15 +12,15 @@ const trispace = Trispace({
 	weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
 });
 
-const Navbar = () => {
+const NavbarHi = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="fixed z-50 top-0 w-full">
+		<div className="fixed z-50 top-0 w-full font-hindi">
 			{/* Top Navbar */}
 			<div className="flex items-center justify-between px-6 py-4 bg-white shadow-md xl:px-72">
 				{/* Logo */}
-				<Link href="/">
+				<Link href="/hi">
 					<Image
 						src="/TWILogo.png"
 						alt="TWI logo"
@@ -33,7 +33,7 @@ const Navbar = () => {
 				<div
 					className={`${trispace.className} text-2xl absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
 				>
-					<Link href="/">Trukkify</Link>
+					<Link href="/hi">Trukkify</Link>
 				</div>
 				{/* </Link> */}
 				{/* Hamburger Icon */}
@@ -45,18 +45,17 @@ const Navbar = () => {
 				/>
 				<div className="hidden xl:block">
 					<div className="flex items-center gap-8">
-						<Link href="/hi" className="flex gap-2 items-center">
+						<Link href="/" className="flex gap-2 items-center">
 							{/* <div className='flex gap-2 items-center'> */}
 							<Languages size={24} className="mt-1" />
-							<div className="text-xl">हिंदी</div>
+							<div className="text-xl mt-2">English</div>
 						</Link>
-						{/* </div> */}
-						<Link href="/about">
-							<div className="text-xl">About Us</div>
+						<Link href="/hi/about">
+							<div className="text-xl mt-2">हमारे बारे में</div>
 						</Link>
-						<Link href="/contact">
-							<button className="bg-blue-600 py-2 tracking-wide text-xl font-semibold text-white px-4 rounded-md cursor-pointer">
-								Contact Us
+						<Link href="/hi/contact">
+							<button className="bg-blue-600 pb-2 pt-3 tracking-wide text-xl font-semibold text-white px-4 rounded-md cursor-pointer">
+								संपर्क करें
 							</button>
 						</Link>
 					</div>
@@ -88,33 +87,33 @@ const Navbar = () => {
 				{/* Menu Items */}
 				<nav className="mt-20 flex flex-col px-6 space-y-4">
 					<Link
-						href="/"
-						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
-						onClick={() => setIsOpen(false)}
-					>
-						Home
-					</Link>
-					<Link
 						href="/hi"
 						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
 						onClick={() => setIsOpen(false)}
 					>
-						Language: हिंदी
+						मुख्य पेज
 					</Link>
 					<Link
-						href="/about"
+						href="/"
 						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
 						onClick={() => setIsOpen(false)}
 					>
-						About Us
+						Language: English
 					</Link>
-					<Link href="/contact">
+					<Link
+						href="/hi/about"
+						className="block text-lg font-medium text-gray-900 hover:text-blue-600"
+						onClick={() => setIsOpen(false)}
+					>
+						हमारे बारे में
+					</Link>
+					<Link href="/hi/contact">
 						<button
 							href="#"
 							className="block text-lg tracking-wide text-white bg-blue-700 w-full py-1 mt-2 rounded-md"
 							onClick={() => setIsOpen(false)}
 						>
-							Contact Us
+							संपर्क करें
 						</button>
 					</Link>
 				</nav>
@@ -122,4 +121,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-export default Navbar;
+export default NavbarHi;

@@ -96,7 +96,7 @@ const LeadershipCard = () => {
 							openIds.includes(profile.id) ? 'max-h-96 mt-4' : 'max-h-0'
 						}`}
 					>
-						<div className="text-sm text-gray-700 leading-relaxed text-center">
+						<div className="text-lg text-gray-700 leading-relaxed text-center">
 							{profile.details}
 						</div>
 					</div>

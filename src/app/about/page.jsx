@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import LeadershipCard from '../components/LeadershipCard';
 import { Trispace } from 'next/font/google';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const trispace = Trispace({
 	display: 'swap',
@@ -10,6 +12,7 @@ const trispace = Trispace({
 const About = () => {
 	return (
 		<div className="">
+			<Navbar />
 			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
 				<Image
 					src="/team.JPG"
@@ -196,6 +199,7 @@ const About = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
