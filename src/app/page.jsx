@@ -1,11 +1,13 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { Trispace } from 'next/font/google';
 import FeatureCard from './components/FeatureCard';
 import { ArrowUpRight } from 'lucide-react';
 import HowWorks from './components/HowWorks';
-import './globals.css'
+import './globals.css';
+import DriverSteps from './components/DriverAppSteps';
 
 const trispace = Trispace({
 	display: 'swap',
@@ -45,17 +47,19 @@ export default function Home() {
 					Smart logistics. <br className="lg:hidden" /> Seamless delivery.
 				</h1>
 				<p className="text-center text-xl lg:text-2xl lg:max-w-2/4 font-lato">
-					Trukkify connects customers who need to ship cargo with trusted
-					truck drivers across India. Manage contracts, track deliveries, and
+					Trukkify connects customers who need to ship cargo with trusted truck
+					drivers across India. Manage contracts, track deliveries, and
 					communicate - all in one streamlined logistics app.
 				</p>
 			</div>
 
+			{/* Steps */}
+
+			<div className="py-16">{/* <DriverSteps /> */}</div>
+
 			{/* new section */}
 			<div className="flex flex-col w-full justify-center lg:items-center bg-white px-8 lg:px-20 mt-16 lg:mb-16 gap-12">
-				
 				<div className="lg:w-[1324px] h-auto flex flex-col lg:flex-row gap-8 lg:gap-32">
-					
 					<div className="flex-1 relative lg:order-2 w-fit flex items-center justify-center">
 						<img
 							src="/rightImage.png" // Replace with your actual image path
@@ -65,7 +69,11 @@ export default function Home() {
 					</div>
 					<div className="flex flex-col lg:order-1 justify-center lg:items-start items-center flex-1 relative">
 						<div>
-							<p className={` ${trispace.className} text-gray-500 font-semibold mb-1 text-center lg:text-left text-lg`}>For Carriers</p>
+							<p
+								className={` ${trispace.className} text-gray-500 font-semibold mb-1 text-center lg:text-left text-lg`}
+							>
+								For Carriers
+							</p>
 							<h1
 								className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
 							>
@@ -78,9 +86,11 @@ export default function Home() {
 							drivers, track your trips, and grow your logistics business all
 							from your phone.
 						</p>
-						<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold w-fit hover:bg-blue-700">
-							Join Now <ArrowUpRight size={28} />
-						</button>
+						<Link href="/demo/driver">
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-105 transition-all  w-fit hover:bg-blue-700">
+								View More <ArrowUpRight size={28} />
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -115,11 +125,11 @@ export default function Home() {
 							shipping locally or across states, enjoy peace of mind with
 							transparent communication and delivery updates.
 						</p>
-						<button
-							className={`flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold w-fit hover:bg-blue-700`}
-						>
-							Join Now <ArrowUpRight size={28} />
-						</button>
+						<Link href="/demo/customer">
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-105 transition-all  w-fit hover:bg-blue-700">
+								View More <ArrowUpRight size={28} />
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>

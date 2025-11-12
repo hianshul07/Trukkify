@@ -4,50 +4,38 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const DriverSteps = () => {
+const CustomerSteps = () => {
 	// Hardcoded steps data — right inside the component
 	const guideSteps = [
 		{
-			image: '/driver_steps/login.png',
-			title: '1. Login & Ready to Roll',
+			image: '/customer_steps/login.png',
+			title: '1. Create Profile & Start Shipping',
 			description:
-				'Step in and unlock your driver dashboard. Trips, earnings, and documents - all in one place.',
+				'Set up your business details, verify your identity, and unlock full access to trip posting, driver matching, and real-time tracking.',
 		},
 		{
-			image: '/driver_steps/profile.png',
-			title: '2. Build Your Profile, Build Trust',
+			image: '/customer_steps/profile.png',
+			title: '2. Your Profile, Your Control',
 			description:
-				'Add your name, documents, and driving details in minutes. Get verified and start receiving trip offers faster.',
+				'Manage your business details, contact info, and preferences in one place. Build trust with verified credentials and a complete profile.',
 		},
 		{
-			image: '/driver_steps/trips.png',
-			title: '3. New Trips, Fresh Opportunities',
+			image: '/customer_steps/negotiation.png',
+			title: '3. Your Cargo, Your Price',
 			description:
-				'Get notified when new loads are available. Review details, accept instantly, and keep your wheels moving.',
+				'Set your rate, receive driver counters, and finalize deals that work for you. Transparent, flexible, and in your control.',
 		},
 		{
-			image: '/driver_steps/negotiation.png',
-			title: '4. Negotiate Your Way',
+			image: '/customer_steps/ongoing.png',
+			title: '4. Keep Every Trip on Track',
 			description:
-				'Add annotations, arrows, or any final elements. The result is a clear visual guide.',
+				'Monitor live trips with real-time updates on location, status, and driver activity. Stay informed from pickup to delivery.',
 		},
 		{
-			image: '/driver_steps/progress.png',
-			title: '2. Everything You Need, In One View',
+			image: '/customer_steps/wallet.png',
+			title: '5. Wallet & Rewards',
 			description:
-				'From pickup to drop-off, see all trip info — route, stops, documents, and instructions — without the back-and-forth.',
-		},
-		{
-			image: '/driver_steps/wallet.png',
-			title: '4. Your Earnings, In Your Pocket',
-			description:
-				'Track payments, view balances, and withdraw at your convenience. No middlemen, no guesswork - just clear, fast access to your money.',
-		},
-		{
-			image: '/driver_steps/documents-new.png',
-			title: '6. Keep Documents secure',
-			description:
-				'Securely store PAN, Aadhaar, and trip documents in one place. Share with shippers instantly - no re-uploading, no delays.',
+				'Track payments, earn rewards, and manage your spending - all in one place. Every trip adds value.',
 		},
 	];
 
@@ -147,4 +135,4 @@ const DriverSteps = () => {
 	);
 };
 
-export default DriverSteps;
+export default CustomerSteps;
