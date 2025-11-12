@@ -13,7 +13,7 @@ const About = () => {
 	return (
 		<div className="">
 			<Navbar />
-			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
+			{/* <div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
 				<Image
 					src="/team.JPG"
 					alt="TWI Team"
@@ -21,7 +21,7 @@ const About = () => {
 					className="object-cover"
 					priority
 				/>
-			</div>
+			</div> */}
 			<div className="w-full flex-col flex items-center py-6 gap-4 px-4 bg-orange-100">
 				<h1 className={`${trispace.className} font-semibold row-span-1 tracking-tight text-yellow-950 text-2xl text-center md:text-4xl`}>
 					About Transport Wings (Cal) <br className="lg:hidden" /> Pvt. Ltd
