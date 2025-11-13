@@ -11,14 +11,14 @@ import {
 
 const Footer = () => {
 	return (
-		<footer className="bg-[#0c1c2c] text-white py-10 px-6 md:px-16 text-xl">
-			<div className="max-w-4/5 mx-auto flex-col flex justify-center lg:flex-row items-center gap-10 xl:items-start">
+		<footer className="bg-[#0c1c2c] text-white py-10 px-6 text-lg">
+			<div className="max-w-4/5 mx-auto flex-col flex justify-center lg:flex-row items-center gap-10 lg:items-start">
 				{/* Logo */}
 				<div className="flex flex-1 flex-col items-center gap-4">
 					<div className="">
 						<Image src="/TWILogo.png" height={64} width={64} alt="TWI logo" />
 					</div>
-					<div className="font-medium text-xl">Transport Wings India</div>
+					<div className="font-medium text-lg">Transport Wings India</div>
 				</div>
 
 				{/* Navigation + Social */}
@@ -56,28 +56,33 @@ const Footer = () => {
 				</div>
 
 				{/* Contact Info */}
-				<div className="space-y-3 flex-1 w-full flex flex-col items-start">
-					<p className="uppercase">
-						609, 610, 1110 Pearls Omaxe Tower-2, <br />
-						Netaji Subhash Place, Pitampura, <br />
-						Delhi - 110034
-					</p>
-					<div className=""></div>
-					<div className='flex flex-col gap-2'>
-						<div className="flex items-center gap-2 ">
-							<Clock className="mt-1" /> <a>Mon - Sat: 9:30 - 18:30</a>
-						</div>
-						<div className="flex items-center gap-2">
-							<Mail className="mt-1" />
-							<a href="mailto:ces@usli.in" className="hover:underline text-xl">
-								ces@twcpl.in
-							</a>
-						</div>
-						<div className="flex items-center gap-2">
-							<Phone className="mt-1" />
-							<a href="tel:+911127351631" className="hover:underline text-xl">
-								+91 11 27351631
-							</a>
+				<div className="flex-1 w-full flex flex-col items-center text-base">
+					<div className='space-y-3'>
+						<p className="uppercase">
+							609, 610, 1110 Pearls Omaxe Tower-2, <br />
+							Netaji Subhash Place, Pitampura, <br />
+							Delhi - 110034
+						</p>
+						<div className=""></div>
+						<div className="flex flex-col gap-2">
+							<div className="flex items-center gap-2 ">
+								<Clock className="mt-1" /> <a>Mon - Sat: 9:30 - 18:30</a>
+							</div>
+							<div className="flex items-center gap-2">
+								<Mail className="mt-1" />
+								<a
+									href="mailto:ces@usli.in"
+									className="hover:underline text-xl"
+								>
+									ces@twcpl.in
+								</a>
+							</div>
+							<div className="flex items-center gap-2">
+								<Phone className="mt-1" />
+								<a href="tel:+911127351631" className="hover:underline text-xl">
+									+91 11 27351631
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

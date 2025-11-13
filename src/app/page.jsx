@@ -19,7 +19,7 @@ export default function Home() {
 		<div className="overflow-hidden font-lato">
 			<Navbar />
 			{/* Hero section */}
-			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
+			<div className="relative w-full h-[400px] lg:h-[900px] overflow-hidden mt-[72px]">
 				<Image
 					src="/heroImage.png" // Replace with your actual image path
 					alt="Freight Truck on Coastal Highway"
@@ -28,25 +28,25 @@ export default function Home() {
 					priority
 				/>
 
-				<div className="absolute top-8 lg:top-20 left-0 w-full px-6 py-4 bg-white/40 lg:bg-white/70 backdrop-blur-sm text-center">
-					<h2 className="text-xl lg:text-3xl text-gray-800">
+				<div className="absolute top-8 lg:top-20 left-0 w-full px-6 py-4 bg-white/40 backdrop-blur-xs text-center">
+					<h2 className="text-xl lg:text-2xl text-gray-800">
 						Streamline Your Freight Operations with
 					</h2>
 					<h1
-						className={`${trispace.className} tracking-tight text-3xl md:text-4xl font-semibold text-blue-700 mt-1`}
+						className={`${trispace.className} tracking-tight text-3xl md:text-3xl font-semibold text-blue-700 mt-1`}
 					>
 						Trukkify
 					</h1>
 				</div>
 			</div>
 			{/* section smart logistics */}
-			<div className="w-full flex-col flex items-center text-center  py-6 lg:py-8 text-2xl gap-4 px-2 bg-orange-100">
+			<div className="w-full flex-col flex items-center text-center  py-6 lg:py-8 text-2xl gap-2 px-2 bg-orange-100">
 				<h1
-					className={`${trispace.className} tracking-tight font-semibold text-red-950 text-3xl lg:text-4xl`}
+					className={`${trispace.className} tracking-tight font-semibold text-red-950 text-3xl`}
 				>
 					Smart logistics. <br className="lg:hidden" /> Seamless delivery.
 				</h1>
-				<p className="text-center text-xl lg:text-2xl lg:max-w-2/4 font-lato">
+				<p className="text-center text-xl lg:text-xl lg:max-w-2/4 font-lato">
 					Trukkify connects customers who need to ship cargo with trusted truck
 					drivers across India. Manage contracts, track deliveries, and
 					communicate - all in one streamlined logistics app.
@@ -55,11 +55,11 @@ export default function Home() {
 
 			{/* Steps */}
 
-			<div className="py-16">{/* <DriverSteps /> */}</div>
+			<div className="py-8">{/* <DriverSteps /> */}</div>
 
 			{/* new section */}
 			<div className="flex flex-col w-full justify-center lg:items-center bg-white px-8 lg:px-20 mt-16 lg:mb-16 gap-12">
-				<div className="lg:w-[1324px] h-auto flex flex-col lg:flex-row gap-8 lg:gap-32">
+				<div className="lg:w-[1200px] h-auto flex flex-col lg:flex-row gap-8 lg:gap-24">
 					<div className="flex-1 relative lg:order-2 w-fit flex items-center justify-center">
 						<img
 							src="/rightImage.png" // Replace with your actual image path
@@ -75,20 +75,20 @@ export default function Home() {
 								For Carriers
 							</p>
 							<h1
-								className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
+								className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-3xl font-semibold text-blue-800 mb-2 lg:mb-0`}
 							>
 								Coordinate. Deliver. Grow.
 							</h1>
 						</div>
-						<p className="text-center lg:text-left text-xl text-gray-700 mb-6">
+						<p className="text-center lg:text-left text-xl lg:text-lg text-gray-700 mb-6 lg:mb-4">
 							Join TWI Exchange to discover opportunities faster, improve
 							communication quality, and get paid reliably. Stay connected with
 							drivers, track your trips, and grow your logistics business all
 							from your phone.
 						</p>
 						<Link href="/demo/driver">
-							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-105 transition-all  w-fit hover:bg-blue-700">
-								View More <ArrowUpRight size={28} />
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 lg:py-2 lg:px-4 rounded-md text-xl font-medium hover:cursor-pointer hover:scale-104 transition-all w-fit hover:bg-blue-700">
+								View More <ArrowUpRight size={24} />
 							</button>
 						</Link>
 					</div>
@@ -97,11 +97,11 @@ export default function Home() {
 
 			<div className="flex flex-col w-full justify-center lg:items-center bg-white px-8 lg:px-20 py-16 gap-12">
 				{/* Left: Text Content */}
-				<div className="lg:w-[1324px] h-auto flex flex-col lg:flex-row gap-8 lg:gap-32">
+				<div className="lg:w-[1200px] h-auto flex flex-col lg:flex-row gap-8 lg:gap-24">
 					{/* Right: App Mockup */}
 					<div className="flex-1 relative w-fit flex items-center justify-center">
 						<img
-							src="/leftImage.png" // Replace with your actual image path
+							src="/leftImage.png" 
 							alt="Exchange Trip Management App"
 							className="object-contain"
 						/>
@@ -109,25 +109,25 @@ export default function Home() {
 					<div className="flex flex-col justify-center lg:items-end items-center flex-1">
 						<div>
 							<p
-								className={` ${trispace.className} text-gray-500 font-semibold text-center lg:text-right mr-2 mb-1 text-lg`}
+								className={` ${trispace.className} text-gray-500 font-semibold mb-1 text-center lg:text-right text-lg`}
 							>
 								For Customers
 							</p>
 							<h1
-								className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-4xl font-bold text-blue-800 mb-2`}
+								className={`${trispace.className} tracking-tight text-3xl text-center lg:text-left lg:text-3xl font-semibold text-blue-800 mb-2 lg:mb-0`}
 							>
 								Post. Match. Monitor.
 							</h1>
 						</div>
-						<p className="text-center lg:text-right text-xl text-gray-700 mb-6 font-lato">
+						<p className="text-center lg:text-right text-xl lg:text-lg text-gray-700 mb-6 lg:mb-4">
 							Use Trukkify to find verified truck drivers, create secure
 							contracts, and monitor your cargo in real time. Whether you're
 							shipping locally or across states, enjoy peace of mind with
 							transparent communication and delivery updates.
 						</p>
 						<Link href="/demo/customer">
-							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-105 transition-all  w-fit hover:bg-blue-700">
-								View More <ArrowUpRight size={28} />
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 lg:py-2 lg:px-4 rounded-md text-xl font-medium hover:cursor-pointer hover:scale-104 transition-all w-fit hover:bg-blue-700">
+								View More <ArrowUpRight size={24} />
 							</button>
 						</Link>
 					</div>
@@ -162,18 +162,18 @@ export default function Home() {
 				</div>
 			</div> */}
 
-			<div className="flex items-center justify-center my-8 ">
+			<div className="flex items-center justify-center my-8">
 				<Image
 					src="/bussiness.png"
 					height={400}
-					width={600}
+					width={500}
 					alt="business model"
 				/>
 			</div>
 
 			<div className="flex flex-col items-center justify-center mb-8">
 				<h3
-					className={`${trispace.className} tracking-tight lg:mt-8 mb-8 text-3xl lg:text-4xl font-semibold text-blue-800`}
+					className={`${trispace.className} tracking-tight lg:mt-8 mb-8 text-3xl font-semibold text-blue-800`}
 				>
 					Core Advantages{' '}
 				</h3>
@@ -237,7 +237,7 @@ export default function Home() {
 
 			<div className="flex flex-col items-center">
 				<h3
-					className={`${trispace.className} tracking-tight mt-8 mb-8 font-semibold text-4xl text-blue-800`}
+					className={`${trispace.className} tracking-tight mt-8 mb-8 font-semibold text-3xl text-blue-800`}
 				>
 					How Trukkify Works
 				</h3>
@@ -262,11 +262,11 @@ export default function Home() {
 			<div className=" flex flex-col justify-center items-center px-8">
 				<div className=" lg:w-2/5 flex flex-col justify-center items-center">
 					<h3
-						className={`${trispace.className} tracking-tight mt-8 mb-2 font-semibold text-3xl text-nowrap lg:text-4xl text-blue-800`}
+						className={`${trispace.className} tracking-tight mt-8 mb-2 font-semibold text-3xl text-nowrap text-blue-800`}
 					>
 						Download Trukkify Now
 					</h3>
-					<p className="text-center text-xl lg:text-2xl ">
+					<p className="text-center text-xl">
 						Manage your shipments, contracts, and fleet operations on the go.
 						Get the power of logistics in your pocket available on Android and
 						iOS.
@@ -283,7 +283,7 @@ export default function Home() {
 						<a
 							href="https://play.google.com/store/apps/details?id=com.tsilteam.Exchangev2&hl=en_IN"
 							target="_blank"
-							className="flex gap-2 items-center bg-blue-600 border-3 border-blue-600 text-white px-6 py-3 rounded-md text-xl tracking-wide font-semibold hover:bg-blue-700 cursor-pointer"
+							className="flex gap-2 items-center bg-blue-600 border-3 border-blue-600 text-white px-6 py-3 lg:px-4 lg:py-2 rounded-md text-xl tracking-wide font-medium hover:bg-blue-700 hover:border-blue-700 hover:scale-102 transition-all cursor-pointer"
 						>
 							Download Now
 						</a>
@@ -296,7 +296,8 @@ export default function Home() {
 							height={160}
 							width={160}
 						/>
-						<button className="flex gap-2 items-center border-3 box-border tracking-wide border-blue-600 text-blue-600 px-6 py-3 rounded-md text-xl font-semibold hover:bg-gray-100 cursor-pointer">
+						{/* <button className="flex gap-2 items-center border-3 box-border tracking-wide border-blue-600 text-blue-600 px-6 py-3 rounded-md text-xl font-semibold hover:bg-gray-100 cursor-pointer"> */}
+						<button className="flex gap-2 items-center bg-white border-3 border-blue-600 text-blue-600 px-6 py-3 lg:px-4 lg:py-2 rounded-md text-xl tracking-wide font-semibold hover:bg-gray-100 hover:border-blue-700 hover:scale-102 transition-all cursor-pointer">
 							Coming Soon
 						</button>
 					</div>

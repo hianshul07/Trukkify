@@ -1,7 +1,7 @@
 const HowWorks = ({ number, content }) => {
 	return (
-		<div className="flex bg-orange-50 px-8 py-6 gap-4 my-2 lg:mb-8 mb-4  mx-4 rounded-b-xl shadow-lg items-center">
-			<h3 className="text-orange-900 text-7xl font-semibold">
+		<div className="flex bg-orange-50 px-8 py-6 gap-4 my-2 mb-4 mx-4 rounded-b-xl shadow-lg items-center">
+			<h3 className="text-orange-900 text-6xl font-semibold">
 				{number}
 			</h3>
 			<p className="text-xl font-medium text-gray-800">{content}</p>

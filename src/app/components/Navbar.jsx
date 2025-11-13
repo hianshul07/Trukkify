@@ -18,7 +18,7 @@ const Navbar = () => {
 	return (
 		<div className="fixed z-50 top-0 w-full">
 			{/* Top Navbar */}
-			<div className="flex items-center justify-between px-6 py-4 bg-white shadow-md xl:px-72">
+			<div className="flex items-center justify-between px-6 py-3 bg-white shadow-md xl:px-72">
 				{/* Logo */}
 				<Link href="/">
 					<Image
@@ -31,9 +31,9 @@ const Navbar = () => {
 				</Link>
 				{/* <Link href="/"> */}
 				<div
-					className={`${trispace.className} text-2xl absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
+					className={`${trispace.className} absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
 				>
-					<Link href="/">Trukkify</Link>
+					<Link href="/" className='text-2xl'>Trukkify</Link>
 				</div>
 				{/* </Link> */}
 				{/* Hamburger Icon */}
@@ -48,14 +48,14 @@ const Navbar = () => {
 						<Link href="/hi" className="flex gap-2 items-center">
 							{/* <div className='flex gap-2 items-center'> */}
 							<Languages size={24} className="mt-1" />
-							<div className="text-xl">हिंदी</div>
+							<div className="text-lg">हिंदी</div>
 						</Link>
 						{/* </div> */}
 						<Link href="/about">
-							<div className="text-xl">About Us</div>
+							<div className="text-lg">About Us</div>
 						</Link>
 						<Link href="/contact">
-							<button className="bg-blue-600 py-2 tracking-wide text-xl font-semibold text-white px-4 rounded-md cursor-pointer">
+							<button className="bg-blue-600 py-2 tracking-wide font-medium text-white px-4 rounded-md cursor-pointer">
 								Contact Us
 							</button>
 						</Link>

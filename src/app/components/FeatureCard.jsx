@@ -3,10 +3,10 @@ const FeatureCard = ({ title, content, imgSrc }) => {
 		<div className="lg:w-[490px] w-[380px]"> 
 			{/* <div className=""> */}
 			<div className="">
-				<h4 className="text-2xl lg:text-3xl font-semibold mb-2 text-nowrap">{title}</h4>
-				<p className="text-xl text-gray-800 ml-8 ">{content}</p>
+				<h4 className="text-2xl font-semibold mb-2 text-nowrap">{title}</h4>
+				<p className="text-xl text-gray-800 ml-6 ">{content}</p>
 			</div>
-			<img src={imgSrc} alt="" className="h-72 mx-auto" />
+			<img src={imgSrc} alt="" className="h-64 mx-auto" />
 		</div>
 		// </div>
 	);
