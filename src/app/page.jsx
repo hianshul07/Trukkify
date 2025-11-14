@@ -277,8 +277,8 @@ export default function Home() {
 						<Image
 							src="/android.png"
 							alt="android app store logo"
-							height={160}
-							width={160}
+							height={140}
+							width={140}
 						/>
 						<a
 							href="https://play.google.com/store/apps/details?id=com.tsilteam.Exchangev2&hl=en_IN"
@@ -293,8 +293,8 @@ export default function Home() {
 						<Image
 							src="/app-store.png"
 							alt="android app store logo"
-							height={160}
-							width={160}
+							height={140}
+							width={140}
 						/>
 						{/* <button className="flex gap-2 items-center border-3 box-border tracking-wide border-blue-600 text-blue-600 px-6 py-3 rounded-md text-xl font-semibold hover:bg-gray-100 cursor-pointer"> */}
 						<button className="flex gap-2 items-center bg-white border-3 border-blue-600 text-blue-600 px-6 py-3 lg:px-4 lg:py-2 rounded-md text-xl tracking-wide font-semibold hover:bg-gray-100 hover:border-blue-700 hover:scale-102 transition-all cursor-pointer">
