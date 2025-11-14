@@ -58,7 +58,7 @@ export default function Home() {
 			<div className="py-8">{/* <DriverSteps /> */}</div>
 
 			{/* new section */}
-			<div className="flex flex-col w-full justify-center lg:items-center bg-white px-8 lg:px-20 mt-16 lg:mb-16 gap-12">
+			<div className="flex flex-col w-full justify-center lg:items-center bg-white px-8 lg:px-20 mt-16 lg:mb-12 gap-12">
 				<div className="lg:w-[1200px] h-auto flex flex-col lg:flex-row gap-8 lg:gap-24">
 					<div className="flex-1 relative lg:order-2 w-fit flex items-center justify-center">
 						<img

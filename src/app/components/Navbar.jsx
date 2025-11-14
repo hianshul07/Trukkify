@@ -20,20 +20,24 @@ const Navbar = () => {
 			{/* Top Navbar */}
 			<div className="flex items-center justify-between px-6 py-3 bg-white shadow-md xl:px-72">
 				{/* Logo */}
-				<Link href="/">
-					<Image
-						src="/TWILogo.png"
-						alt="TWI logo"
-						width={48}
-						height={48}
-						className=""
-					/>
-				</Link>
-				{/* <Link href="/"> */}
-				<div
-					className={`${trispace.className} absolute left-1/2 transform -translate-x-1/2 md:text-3xl font-bold tracking-widest text-blue-800`}
-				>
-					<Link href="/" className='text-2xl'>Trukkify</Link>
+				<div className='flex  items-center gap-4'>
+					<Link href="/">
+						<Image
+							src="/TWILogo.png"
+							alt="TWI logo"
+							width={48}
+							height={48}
+							className=""
+						/>
+					</Link>
+					{/* <Link href="/"> */}
+					<div
+						className={`${trispace.className} md:text-3xl font-bold tracking-widest text-blue-800`}
+					>
+						<Link href="/" className="text-2xl">
+							Trukkify
+						</Link>
+					</div>
 				</div>
 				{/* </Link> */}
 				{/* Hamburger Icon */}

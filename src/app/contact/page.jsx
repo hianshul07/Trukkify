@@ -15,15 +15,23 @@ const Contact = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="mt-20 w-full flex-col flex items-center py-6 text-2xl gap-4 px-2 bg-orange-100">
-				<h1 className={`${trispace.className} font-semibold text-yellow-950 tracking-tight md:text-4xl`}>
+			<div className="w-full flex-col flex items-center py-6 px-4 bg-orange-100 mt-[72px]">
+				<h1
+					className={`${trispace.className} font-semibold row-span-1 tracking-tight mb- text-yellow-950 text-2xl text-center md:text-3xl`}
+				>
 					Get in Touch with Us
 				</h1>
-				<p className="text-center text-lg md:text-2xl md:max-w-2/4">
-					Have questions or need assistance? Our team is here to help you
-					streamline your logistics operations. Reach out anytime!
+				<h2
+					className={`${trispace.className} tracking-tight font-medium mb-2 text-gray-800 text-xl lg:text-2xl`}
+				>
+					Have questions or need assistance?,
+				</h2>
+				<p className="text-center text-lg md:text-xl md:max-w-2/4">
+					Our team is here to help you streamline your logistics operations.
+					Reach out anytime!
 				</p>
 			</div>
+
 			<div className="block md:hidden">
 				<form
 					action=""
@@ -94,7 +102,7 @@ const Contact = () => {
 						<div className="space-y-4">
 							<div id="inputs" className="flex flex-col gap-2">
 								<div className="flex flex-col space-y-1">
-									<label htmlFor="name" className="md:text-xl md:font-semibold">
+									<label htmlFor="name" className="lg:text-lg md:font-semibold">
 										Name*
 									</label>
 									<Input
@@ -106,7 +114,7 @@ const Contact = () => {
 								<div className="flex flex-col space-y-1">
 									<label
 										htmlFor="company"
-										className="md:text-xl md:font-semibold"
+										className="md:text-lg md:font-semibold"
 									>
 										Company Name
 									</label>
@@ -117,7 +125,7 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="flex flex-col space-y-1">
-									<label htmlFor="name" className="md:text-xl md:font-semibold">
+									<label htmlFor="name" className="md:text-lg md:font-semibold">
 										Email*
 									</label>
 									<Input
@@ -127,7 +135,7 @@ const Contact = () => {
 									/>
 								</div>
 								<div className="flex flex-col space-y-1">
-									<label htmlFor="name" className="md:text-xl md:font-semibold">
+									<label htmlFor="name" className="md:text-lg md:font-semibold">
 										Phone
 									</label>
 									<Input
@@ -139,7 +147,7 @@ const Contact = () => {
 								<div className="flex flex-col space-y-1">
 									<label
 										htmlFor="message"
-										className="md:text-xl md:font-semibold"
+										className="md:text-lg md:font-semibold"
 									>
 										Message*
 									</label>
@@ -180,7 +188,7 @@ const Contact = () => {
 						</h2>
 						<div className="flex gap-2">
 							<MapPinHouse className="mt-1" size={32} />
-							<p className="leading-relaxed md:text-xl">
+							<p className="leading-relaxed md:text-lg">
 								609, Tower II, Pearls Omaxe, <br />
 								Netaji Subash Place, Pitampura, <br />
 								New Delhi - 110034, Delhi, INDIA.
@@ -196,15 +204,15 @@ const Contact = () => {
 						<ul className="space-y-2">
 							<li className="flex gap-2">
 								<Mail className="mt-1" />
-								<span className="md:text-xl">greenearthpaper@gmail.com</span>
+								<span className="md:text-lg">greenearthpaper@gmail.com</span>
 							</li>
 							<li className="flex gap-2">
 								<Mail className="mt-1" />
-								<span className="md:text-xl">siddharthtsl.net.in</span>
+								<span className="md:text-lg">siddharthtsl.net.in</span>
 							</li>
 							<li className="flex gap-2">
 								<Phone className="mt-1" />
-								<span className="md:text-xl">+91-9661829944</span>
+								<span className="md:text-lg">+91-9661829944</span>
 							</li>
 						</ul>
 					</div>
