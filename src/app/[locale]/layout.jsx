@@ -12,14 +12,9 @@ export async function generateMetadata({ params }) {
 	const { locale } = await params;
 
 	return {
-		title:
-			locale === 'hi'
-				? 'Next.js 16 अंतर्राष्ट्रीयकरण'
-				: 'Next.js 16 Internationalization',
+		title: 'Trukkify: Smart Logistics for India',
 		description:
-			locale === 'hi'
-				? 'Turbopack के साथ Next.js 16 में अंतर्राष्ट्रीयकरण'
-				: 'Internationalization in Next.js 16 with Turbopack',
+			'TWI Exchange connects customers who need to ship cargo with trusted truck drivers across India. Manage contracts, track deliveries, and communicate — all in one streamlined logistics app.',
 	};
 }
 
