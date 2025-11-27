@@ -24,7 +24,7 @@ const Navbar = ({ locale = 'en' }) => {
 			<div className="flex items-center justify-between px-6 py-3 bg-white shadow-md xl:px-72">
 				{/* Logo */}
 				<div className='flex  items-center gap-4'>
-					<Link href="/">
+					<Link href={`/${locale}`}>
 						<Image
 							src="/TWILogo.png"
 							alt="TWI logo"
