@@ -1,165 +1,177 @@
 {
-  "nav": {
-    "home": "ਘਰ",
-    "about": "ਸਾਡੇ ਬਾਰੇ",
-    "contact": "ਸੰਪਰਕ ਕਰੋ",
-    "buttonContact": "ਸੰਪਰਕ ਕਰੋ",
-    "brand": "Trukkify"
-  },
-  "footer": {
-    "brand": "Transport Wings India",
-    "about": "ਸਾਡੇ ਬਾਰੇ",
-    "services": "ਸੇਵਾਵਾਂ",
-    "contact": "ਸੰਪਰਕ",
-    "address": "609, 610, 1110 ਪਰਲਜ਼ ਓਮੈਕਸ ਟਾਵਰ-2,\nਨੇਤਾਜੀ ਸੁਭਾਸ਼ ਪਲੇਸ, ਪਿਤਮਪੁਰਾ,\nਦਿੱਲੀ - 110034",
-    "hours": "ਸੋਮ - ਸ਼ਨੀ: 9:00 - 18:00"
-  },
-  "homepage": {
-    "hero": {
-      "imageAlt": "ਸਮੁੰਦਰੀ ਹਾਈਵੇ 'ਤੇ ਚੱਲਦਾ ਫ੍ਰੇਟ ਟਰੱਕ",
-      "subtitle": "ਆਪਣੀਆਂ Freight ਕਾਰਵਾਈਆਂ ਨੂੰ ਸਧਾਰਨ ਬਣਾਓ",
-      "title": "Trukkify"
-    },
-    "tagline": {
-      "main": "ਸਮਾਰਟ ਲਾਜਿਸਟਿਕਸ। ਬਿਨਾ ਰੁਕਾਵਟ ਡਿਲੀਵਰੀ।",
-      "description": "TWI Exchange ਗਾਹਕਾਂ ਨੂੰ ਭਾਰਤ ਭਰ ਦੇ ਭਰੋਸੇਮੰਦ ਟਰੱਕ ਡਰਾਈਵਰਾਂ ਨਾਲ ਜੋੜਦਾ ਹੈ। Contract, ਡਿਲੀਵਰੀ ਅਤੇ ਸੰਚਾਰ — ਸਭ ਕੁਝ ਇੱਕ streamlined logistics ਐਪ ਵਿੱਚ।"
-    },
-    "carriers": {
-      "label": "Carriers ਲਈ",
-      "title": "ਸੰਯੋਜਿਤ ਕਰੋ। ਡਿਲੀਵਰ ਕਰੋ। ਵਧਾਓ।",
-      "description": "TWI Exchange ਰਾਹੀਂ ਮੌਕੇ ਤੇਜ਼ੀ ਨਾਲ ਲੱਭੋ, ਸੰਚਾਰ ਸੁਧਾਰੋ ਅਤੇ ਭਰੋਸੇਮੰਦ ਭੁਗਤਾਨ ਪ੍ਰਾਪਤ ਕਰੋ। ਡਰਾਈਵਰਾਂ ਨਾਲ ਜੁੜੇ ਰਹੋ, ਟ੍ਰਿਪ ਟਰੈਕ ਕਰੋ ਅਤੇ ਆਪਣੇ logistics ਕਾਰੋਬਾਰ ਨੂੰ ਵਧਾਓ।",
-      "cta": "ਹੁਣੇ ਜੁੜੋ",
-      "imageAlt": "Exchange Trip Management App"
-    },
-    "customers": {
-      "label": "Customers ਲਈ",
-      "title": "ਪੋਸਟ ਕਰੋ। ਮੈਚ ਕਰੋ। ਮਾਨੀਟਰ ਕਰੋ।",
-      "description": "TWI Exchange ਨਾਲ verified ਡਰਾਈਵਰ ਲੱਭੋ, ਸੁਰੱਖਿਅਤ Contracts ਬਣਾਓ ਅਤੇ ਕਾਰਗੋ ਨੂੰ ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਟਰੈਕ ਕਰੋ। ਖੁੱਲ੍ਹੇ ਸੰਚਾਰ ਨਾਲ ਬਿਨਾ ਚਿੰਤਾ ਸ਼ਿਪਮੈਂਟ ਕਰੋ।",
-      "cta": "ਹੁਣੇ ਜੁੜੋ",
-      "imageAlt": "Customer Dashboard"
-    },
-    "businessModel": {
-      "alt": "ਬਿਜ਼ਨਸ ਮਾਡਲ"
-    },
-    "features": {
-      "title": "ਮੁੱਖ ਫਾਇਦੇ",
-      "feature1": {
-        "title": "1. ਕਦੇ ਵੀ, ਕਿੱਥੇ ਵੀ ਬੁੱਕ ਕਰੋ",
-        "content": "ਕਿਸੇ ਵੀ ਡਿਵਾਈਸ ਤੋਂ Shipment ਪੋਸਟ ਕਰੋ। Verified ਡਰਾਈਵਰ ਤੁਰੰਤ ਮੈਚ ਹੁੰਦੇ ਹਨ।"
-      },
-      "feature2": {
-        "title": "2. Bidding ਅਤੇ ਕੀਮਤ ਵਾਰਤਾਲਾਪ",
-        "content": "ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਨਿਆਂਪੂਰਨ ਦਰਾਂ 'ਤੇ ਵਾਰਤਾਲਾਪ ਕਰੋ — ਕੋਈ middleman ਨਹੀਂ।"
-      },
-      "feature3": {
-        "title": "3. 24/7 ਕਸਟਮਰ ਸਹਾਇਤਾ",
-        "content": "ਜਦੋਂ ਵੀ ਜ਼ਰੂਰਤ ਹੋਵੇ ਮਦਦ ਪ੍ਰਾਪਤ ਕਰੋ। ਸਾਡੀ ਟੀਮ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ ਹੈ।"
-      },
-      "feature4": {
-        "title": "4. ਸਮਾਰਟ Analytics ਅਤੇ ਰਿਪੋਰਟ",
-        "content": "ਡਿਲੀਵਰੀ ਸਮਾਂ, ਪ੍ਰਦਰਸ਼ਨ ਅਤੇ ਟ੍ਰੈਂਡਸ ਨੂੰ ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਵੇਖੋ।"
-      },
-      "feature5": {
-        "title": "5. Digital Contract Management",
-        "content": "Contracts ਆਸਾਨੀ ਨਾਲ ਬਣਾਓ ਅਤੇ ਮੈਨੇਜ ਕਰੋ।"
-      },
-      "feature6": {
-        "title": "6. ਸਾਫ ਅਤੇ ਆਸਾਨ ਇੰਟਰਫੇਸ",
-        "content": "Shipment, Contract ਅਤੇ Tasks ਨੂੰ ਤੁਰੰਤ ਐਕਸੈੱਸ ਕਰੋ।"
-      }
-    },
-    "howItWorks": {
-      "title": "Truckyyy ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ",
-      "step1": "ਆਪਣਾ ਪ੍ਰੋਫਾਈਲ ਸੈੱਟ ਕਰੋ ਅਤੇ Shipment ਮੈਨੇਜ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ",
-      "step2": "ਸਾਰੇ logistics ਡਾਟਾ ਨੂੰ ਇੱਕ Dashboard ਵਿੱਚ ਸੰਗਠਿਤ ਕਰੋ",
-      "step3": "ਹਰ movement ਟਰੈਕ ਕਰੋ ਅਤੇ ਐਪ ਅੰਦਰ ਸੰਚਾਰ ਕਰੋ"
-    },
-    "download": {
-      "title": "Truckyyy ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰੋ",
-      "description": "Shipment, Contract ਅਤੇ Fleet operations ਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਤੋਂ ਮੈਨੇਜ ਕਰੋ। Android ਅਤੇ iOS ਦੋਵੇਂ 'ਤੇ ਉਪਲਬਧ।",
-      "androidAlt": "Android ਐਪ ਸਟੋਰ ਲੋਗੋ",
-      "iosAlt": "iOS ਐਪ ਸਟੋਰ ਲੋਗੋ",
-      "downloadNow": "ਡਾਊਨਲੋਡ ਕਰੋ",
-      "comingSoon": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ"
-    }
-  },
-  "about": {
-    "header": {
-      "title": "About Transport Wings (Cal) Pvt. Ltd",
-      "description": "Transport Wings (Cal) Pvt. Ltd. ਪਿਛਲੇ 66 ਸਾਲਾਂ ਤੋਂ ਲਾਜਿਸਟਿਕਸ ਖੇਤਰ ਵਿਚ ਅਗੇਵਾਂ ਹੈ। ਭਾਰਤ ਭਰ ਦੇ ਰਾਜਾਂ ਵਿਚ ਕਾਰਗੋ ਭੇਜਣ ਵਿਚ ਕਈ ਚੁਣੌਤੀਆਂ ਹਨ, ਪਰ TWI ਦੀ ਤਜਰਬੇਕਾਰ ਟੀਮ ਇਸ ਕੰਮ ਨੂੰ ਸੁਗਮ ਬਣਾਉਂਦੀ ਹੈ।"
-    },
-    "leadership": {
-      "title": "ਸਾਡੀ ਲੀਡਰਸ਼ਿਪ",
-      "subtitle": "ਇੱਕ ਵਿਜ਼ਨ, ਇੱਕ ਟੀਮ",
-      "description": "ਅਸੀਂ 46,000+ ਲੋਕਾਂ ਦੀ ਗਲੋਬਲ ਟੀਮ ਹਾਂ। ਭਾਰਤ ਦੇ ਇੱਕ ਵਿਜ਼ਨਰੀ Chairman ਅਤੇ ਤਜਰਬੇਕਾਰ ਮੈਨੇਜਮੈਂਟ ਟੀਮ ਦੁਆਰਾ ਸਾਡੀ ਰਹਿਨੁਮਾਈ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।"
-    },
-    "industries": {
-      "title": "ਅਸੀਂ ਕਿਹੜੀਆਂ ਉਦਯੋਗਾਂ ਨੂੰ ਸੇਵਾ ਦਿੰਦੇ ਹਾਂ",
-      "agri": {
-        "title": "ਕ੍ਰਿਸ਼ੀ ਅਤੇ Agri-Supply:",
-        "content": "Agri-input ਕੰਪਨੀਆਂ ਅਤੇ ਵਪਾਰੀ seasonal loads ਨੂੰ ਸਮੇਂ 'ਤੇ ਭੇਜਣ ਲਈ ਇਸ ਪਲੇਟਫਾਰਮ ਦਾ ਇਸਤੇਮਾਲ ਕਰਦੇ ਹਨ।"
-      },
-      "coldChain": {
-        "title": "ਕੋਲਡ ਚੇਨ ਅਤੇ ਨਾਜ਼ੁਕ ਸਮਾਨ:",
-        "content": "Food processors, pharma distributors ਅਤੇ dairy cooperatives temperature-control ਅਤੇ live tracking 'ਤੇ ਨਿਰਭਰ ਕਰਦੇ ਹਨ।"
-      },
-      "manufacturing": {
-        "title": "ਮੈਨੂਫੈਕਚਰਿੰਗ:",
-        "content": "ਫੈਕਟਰੀਆਂ inbound/outbound loads ਪੋਸਟ ਕਰਦੀਆਂ ਹਨ ਅਤੇ compliant carriers ਨਾਲ ਜੁੜਦੀਆਂ ਹਨ।"
-      },
-      "chemicals": {
-        "title": "ਕੈਮੀਕਲ ਅਤੇ ਨਿਯੰਤਰਿਤ ਸਮਾਨ:",
-        "content": "Chemical manufacturers regulated ਸਮੱਗਰੀ ਦੀ safe transportation ਲਈ route visibility ਵਰਤਦੇ ਹਨ।"
-      }
-    },
-    "values": {
-      "title": "ਮੁੱਖ ਮੁੱਲ",
-      "integrity": {
-        "title": "ਇਮਾਨਦਾਰੀ:",
-        "content": "ਅਸੀਂ ਉੱਚ ਨੈਤਿਕ ਮਿਆਰਾਂ ਦਾ ਪਾਲਣ ਕਰਦੇ ਹਾਂ ਅਤੇ ਭਰੋਸਾ ਬਣਾਉਂਦੇ ਹਾਂ।"
-      },
-      "excellence": {
-        "title": "ਉੱਤਮਤਾ:",
-        "content": "ਅਸੀਂ ਗਾਹਕਾਂ ਦੀ ਉਮੀਦਾਂ ਤੋਂ ਵੱਧ ਸੇਵਾ ਦੇਣ ਲਈ ਲਗਾਤਾਰ ਸੁਧਾਰ ਕਰਦੇ ਹਾਂ।"
-      },
-      "innovation": {
-        "title": "ਨਵੀਂਨਤਾ:",
-        "content": "ਅਸੀਂ ਆਧੁਨਿਕ technology ਵਰਤ ਕੇ logistics ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਵਧੀਆ ਬਣਾਉਂਦੇ ਹਾਂ।"
-      },
-      "customerFocus": {
-        "title": "ਗਾਹਕ ਕੇਂਦਰਿਤਤਾ:",
-        "content": "ਗਾਹਕ ਸਾਡੀ ਪ੍ਰਾਥਮਿਕਤਾ ਹਨ।"
-      },
-      "collaboration": {
-        "title": "ਸਹਿਯੋਗ:",
-        "content": "ਟੀਮਵਰਕ ਅਤੇ ਭਾਈਚਾਰੇ ਨਾਲ ਸਾਂਝੀ ਸਫਲਤਾ ਹਾਸਲ ਹੁੰਦੀ ਹੈ।"
-      }
-    }
-  },
-  "contact": {
-    "header": {
-      "title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
-      "description": "ਕੋਈ ਪ੍ਰਸ਼ਨ ਹੈ ਜਾਂ ਸਹਾਇਤਾ ਚਾਹੀਦੀ ਹੈ? ਸਾਡੀ ਟੀਮ ਹਰ ਸਮੇਂ ਮਦਦ ਲਈ ਤਿਆਰ ਹੈ।"
-    },
-    "form": {
-      "name": "ਨਾਮ*",
-      "company": "ਕੰਪਨੀ ਦਾ ਨਾਮ",
-      "email": "ਈਮੇਲ*",
-      "phone": "ਫੋਨ",
-      "message": "ਸੁਨੇਹਾ*",
-      "send": "ਭੇਜੋ"
-    },
-    "office": {
-      "title": "ਕਾਰਪੋਰੇਟ ਦਫ਼ਤਰ",
-      "address": "609, Tower II, Pearls Omaxe, Netaji Subash Place, Pitampura, New Delhi - 110034, Delhi, INDIA."
-    },
-    "info": {
-      "title": "ਸੰਪਰਕ ਕਰੋ",
-      "email1": "cse@ustl.in",
-      "phone": "+91-9661829944"
-    },
-    "social": {
-      "follow": "ਸਾਨੂੰ Follow ਕਰੋ"
-    }
-  }
+	"nav": {
+		"home": "ਘਰ",
+		"about": "ਸਾਡੇ ਬਾਰੇ",
+		"contact": "ਸੰਪਰਕ ਕਰੋ",
+		"buttonContact": "ਸੰਪਰਕ ਕਰੋ",
+		"brand": "Trukkify"
+	},
+	"footer": {
+		"brand": "Transport Wings India",
+		"about": "ਸਾਡੇ ਬਾਰੇ",
+		"services": "ਸੇਵਾਵਾਂ",
+		"contact": "ਸੰਪਰਕ",
+		"address": "609, 610, 1110 ਪਰਲਜ਼ ਓਮੈਕਸ ਟਾਵਰ-2,\nਨੇਤਾਜੀ ਸੁਭਾਸ਼ ਪਲੇਸ, ਪਿਤਮਪੁਰਾ,\nਦਿੱਲੀ - 110034",
+		"hours": "ਸੋਮ - ਸ਼ਨੀ: 9:00 - 18:00"
+	},
+	"homepage": {
+		"hero": {
+			"imageAlt": "ਸਮੁੰਦਰੀ ਹਾਈਵੇ 'ਤੇ ਚੱਲਦਾ ਫ੍ਰੇਟ ਟਰੱਕ",
+			"subtitle": "ਆਪਣੀਆਂ Freight ਕਾਰਵਾਈਆਂ ਨੂੰ ਸਧਾਰਨ ਬਣਾਓ",
+			"title": "Trukkify"
+		},
+		"tagline": {
+			"main": "ਸਮਾਰਟ ਲਾਜਿਸਟਿਕਸ। ਬਿਨਾ ਰੁਕਾਵਟ ਡਿਲੀਵਰੀ।",
+			"description": "TWI Exchange ਗਾਹਕਾਂ ਨੂੰ ਭਾਰਤ ਭਰ ਦੇ ਭਰੋਸੇਮੰਦ ਟਰੱਕ ਡਰਾਈਵਰਾਂ ਨਾਲ ਜੋੜਦਾ ਹੈ। Contract, ਡਿਲੀਵਰੀ ਅਤੇ ਸੰਚਾਰ — ਸਭ ਕੁਝ ਇੱਕ streamlined logistics ਐਪ ਵਿੱਚ।"
+		},
+		"carriers": {
+			"label": "Carriers ਲਈ",
+			"title": "ਸੰਯੋਜਿਤ ਕਰੋ। ਡਿਲੀਵਰ ਕਰੋ। ਵਧਾਓ।",
+			"description": "TWI Exchange ਰਾਹੀਂ ਮੌਕੇ ਤੇਜ਼ੀ ਨਾਲ ਲੱਭੋ, ਸੰਚਾਰ ਸੁਧਾਰੋ ਅਤੇ ਭਰੋਸੇਮੰਦ ਭੁਗਤਾਨ ਪ੍ਰਾਪਤ ਕਰੋ। ਡਰਾਈਵਰਾਂ ਨਾਲ ਜੁੜੇ ਰਹੋ, ਟ੍ਰਿਪ ਟਰੈਕ ਕਰੋ ਅਤੇ ਆਪਣੇ logistics ਕਾਰੋਬਾਰ ਨੂੰ ਵਧਾਓ।",
+			"cta": "ਹੁਣੇ ਜੁੜੋ",
+			"imageAlt": "Exchange Trip Management App"
+		},
+		"customers": {
+			"label": "Customers ਲਈ",
+			"title": "ਪੋਸਟ ਕਰੋ। ਮੈਚ ਕਰੋ। ਮਾਨੀਟਰ ਕਰੋ।",
+			"description": "TWI Exchange ਨਾਲ verified ਡਰਾਈਵਰ ਲੱਭੋ, ਸੁਰੱਖਿਅਤ Contracts ਬਣਾਓ ਅਤੇ ਕਾਰਗੋ ਨੂੰ ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਟਰੈਕ ਕਰੋ। ਖੁੱਲ੍ਹੇ ਸੰਚਾਰ ਨਾਲ ਬਿਨਾ ਚਿੰਤਾ ਸ਼ਿਪਮੈਂਟ ਕਰੋ।",
+			"cta": "ਹੁਣੇ ਜੁੜੋ",
+			"imageAlt": "Customer Dashboard"
+		},
+		"businessModel": {
+			"alt": "ਬਿਜ਼ਨਸ ਮਾਡਲ"
+		},
+		"features": {
+			"title": "ਮੁੱਖ ਫਾਇਦੇ",
+			"feature1": {
+				"title": "1. ਕਦੇ ਵੀ, ਕਿੱਥੇ ਵੀ ਬੁੱਕ ਕਰੋ",
+				"content": "ਕਿਸੇ ਵੀ ਡਿਵਾਈਸ ਤੋਂ Shipment ਪੋਸਟ ਕਰੋ। Verified ਡਰਾਈਵਰ ਤੁਰੰਤ ਮੈਚ ਹੁੰਦੇ ਹਨ।"
+			},
+			"feature2": {
+				"title": "2. Bidding ਅਤੇ ਕੀਮਤ ਵਾਰਤਾਲਾਪ",
+				"content": "ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਨਿਆਂਪੂਰਨ ਦਰਾਂ 'ਤੇ ਵਾਰਤਾਲਾਪ ਕਰੋ — ਕੋਈ middleman ਨਹੀਂ।"
+			},
+			"feature3": {
+				"title": "3. 24/7 ਕਸਟਮਰ ਸਹਾਇਤਾ",
+				"content": "ਜਦੋਂ ਵੀ ਜ਼ਰੂਰਤ ਹੋਵੇ ਮਦਦ ਪ੍ਰਾਪਤ ਕਰੋ। ਸਾਡੀ ਟੀਮ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ ਹੈ।"
+			},
+			"feature4": {
+				"title": "4. ਸਮਾਰਟ Analytics ਅਤੇ ਰਿਪੋਰਟ",
+				"content": "ਡਿਲੀਵਰੀ ਸਮਾਂ, ਪ੍ਰਦਰਸ਼ਨ ਅਤੇ ਟ੍ਰੈਂਡਸ ਨੂੰ ਰੀਅਲ-ਟਾਈਮ ਵਿੱਚ ਵੇਖੋ।"
+			},
+			"feature5": {
+				"title": "5. Digital Contract Management",
+				"content": "Contracts ਆਸਾਨੀ ਨਾਲ ਬਣਾਓ ਅਤੇ ਮੈਨੇਜ ਕਰੋ।"
+			},
+			"feature6": {
+				"title": "6. ਸਾਫ ਅਤੇ ਆਸਾਨ ਇੰਟਰਫੇਸ",
+				"content": "Shipment, Contract ਅਤੇ Tasks ਨੂੰ ਤੁਰੰਤ ਐਕਸੈੱਸ ਕਰੋ।"
+			}
+		},
+		"howItWorks": {
+			"title": "Truckyyy ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ",
+			"step1": "ਆਪਣਾ ਪ੍ਰੋਫਾਈਲ ਸੈੱਟ ਕਰੋ ਅਤੇ Shipment ਮੈਨੇਜ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+			"step2": "ਸਾਰੇ logistics ਡਾਟਾ ਨੂੰ ਇੱਕ Dashboard ਵਿੱਚ ਸੰਗਠਿਤ ਕਰੋ",
+			"step3": "ਹਰ movement ਟਰੈਕ ਕਰੋ ਅਤੇ ਐਪ ਅੰਦਰ ਸੰਚਾਰ ਕਰੋ"
+		},
+		"download": {
+			"title": "Truckyyy ਹੁਣੇ ਡਾਊਨਲੋਡ ਕਰੋ",
+			"description": "Shipment, Contract ਅਤੇ Fleet operations ਨੂੰ ਆਪਣੇ ਫ਼ੋਨ ਤੋਂ ਮੈਨੇਜ ਕਰੋ। Android ਅਤੇ iOS ਦੋਵੇਂ 'ਤੇ ਉਪਲਬਧ।",
+			"androidAlt": "Android ਐਪ ਸਟੋਰ ਲੋਗੋ",
+			"iosAlt": "iOS ਐਪ ਸਟੋਰ ਲੋਗੋ",
+			"downloadNow": "ਡਾਊਨਲੋਡ ਕਰੋ",
+			"comingSoon": "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ"
+		}
+	},
+	"about": {
+		"header": {
+			"title": "About Transport Wings (Cal) Pvt. Ltd",
+			"description": "Transport Wings (Cal) Pvt. Ltd. ਪਿਛਲੇ 66 ਸਾਲਾਂ ਤੋਂ ਲਾਜਿਸਟਿਕਸ ਖੇਤਰ ਵਿਚ ਅਗੇਵਾਂ ਹੈ। ਭਾਰਤ ਭਰ ਦੇ ਰਾਜਾਂ ਵਿਚ ਕਾਰਗੋ ਭੇਜਣ ਵਿਚ ਕਈ ਚੁਣੌਤੀਆਂ ਹਨ, ਪਰ TWI ਦੀ ਤਜਰਬੇਕਾਰ ਟੀਮ ਇਸ ਕੰਮ ਨੂੰ ਸੁਗਮ ਬਣਾਉਂਦੀ ਹੈ।"
+		},
+		"leadership": {
+			"title": "ਸਾਡੀ ਲੀਡਰਸ਼ਿਪ",
+			"subtitle": "ਇੱਕ ਦ੍ਰਿਸ਼ਟੀ ਇੱਕ ਟੀਮ",
+			"description": "ਅਸੀਂ ਇੱਕ ਸਾਂਝੇ ਉਦੇਸ਼ ਲਈ ਕੰਮ ਕਰਨ ਵਾਲੇ ਦੁਨੀਆ ਭਰ ਦੇ 46,000+ ਤੋਂ ਵੱਧ ਲੋਕਾਂ ਦੀ ਇੱਕ ਟੀਮ ਹਾਂ। ਸਾਨੂੰ ਭਾਰਤ ਦੇ ਸਭ ਤੋਂ ਦੂਰਦਰਸ਼ੀ ਚੇਅਰਮੈਨਾਂ ਵਿੱਚੋਂ ਇੱਕ ਦੁਆਰਾ ਅਗਵਾਈ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਇੱਕ ਪ੍ਰਤਿਭਾਸ਼ਾਲੀ ਅਤੇ ਤਜਰਬੇਕਾਰ ਪ੍ਰਬੰਧਨ ਟੀਮ ਦਾ ਸਮਰਥਨ ਪ੍ਰਾਪਤ ਹੈ।",
+			"viewMore": "ਹੋਰ ਦੇਖੋ",
+			"collapse": "ਸਮੇਟੋ",
+			"ceo": {
+				"name": "ਸ੍ਰੀ ਪੁਰਸ਼ੋਤਮ ਪੀ ਸਿੰਗਲ",
+				"title": "Chief Executive Officer",
+				"description": "ਕੰਪਨੀ ਦੇ ਸੀਈਓ ਆਪਣੇ ਪਿਤਾ ਸਵਰਗੀ ਸ਼੍ਰੀ ਪੀ.ਸੀ. ਸਿੰਗਲ ਦੁਆਰਾ ਸਾਂਝੇ ਕੀਤੇ ਤਜਰਬੇ ਅਤੇ ਉੱਚ ਯੋਗਤਾ (ਬੀ.ਕਾਮ ਆਨਰਸ, ਐਮਬੀਏ - ਲੌਜਿਸਟਿਕਸ) ਨਾਲ ਚੰਗੀ ਤਰ੍ਹਾਂ ਲੈਸ ਹਨ ਅਤੇ 1990 ਤੋਂ ਸੰਸਥਾ ਵਿੱਚ ਕੰਮ ਕਰ ਰਹੇ ਹਨ। ਉਨ੍ਹਾਂ ਨੇ ਪਿਛਲੇ 26 ਸਾਲਾਂ ਵਿੱਚ ਕਈ ਮੀਲ ਪੱਥਰ ਪ੍ਰਾਪਤ ਕੀਤੇ ਹਨ ਅਤੇ ਆਪਣੀ ਅਗਵਾਈ ਹੇਠ ਪੈਨ ਇੰਡੀਆ ਵਿੱਚ ਵੱਖ-ਵੱਖ ਕਾਰਜਾਂ ਨੂੰ ਸਭ ਤੋਂ ਤਸੱਲੀਬਖਸ਼ ਢੰਗ ਨਾਲ ਪੂਰਾ ਕੀਤਾ ਹੈ। ਉਹ ਇੱਕ ਸਮਾਜ ਸੇਵੀ ਵੀ ਹਨ ਅਤੇ ਚੰਗੀ ਸਮਾਜਿਕ ਪ੍ਰਤਿਸ਼ਠਾ ਰੱਖਦੇ ਹਨ। ਉਹ 'ਸ਼੍ਰੀ ਅਗਰਸੇਨ ਇੰਟਰਨੈਸ਼ਨਲ ਹਸਪਤਾਲ' ਦੇ ਟਰੱਸਟੀ ਹਨ ਅਤੇ ਸਮਾਜ ਲਈ ਵੱਖ-ਵੱਖ ਹੋਰ ਸਮਾਜਿਕ ਸੇਵਾਵਾਂ ਦਾ ਹਿੱਸਾ ਹਨ ਅਤੇ ਨਾਜ਼ੁਕ ਅਤੇ ਅਤਿ-ਨਾਜ਼ੁਕ ਕਾਰਜਾਂ ਨੂੰ ਸੰਭਾਲਣ ਅਤੇ ਲੈ ਜਾਣ ਵਿੱਚ ਚੰਗੀ ਮੁਹਾਰਤ ਰੱਖਦੇ ਹਨ।"
+			},
+			"md": {
+				"name": "ਡਾ. ਉੱਤਮ ਸਿੰਗਲ",
+				"title": "Managing Director",
+				"description": "ਕੰਪਨੀ ਦੇ ਪ੍ਰਬੰਧ ਨਿਰਦੇਸ਼ਕ, ਬੀ.ਕਾਮ (ਐਚ) ਅਤੇ ਐਮਬੀਏ (ਵਿੱਤ), ਸਾਰੀਆਂ ਗਤੀਵਿਧੀਆਂ ਦੀ ਸਰਗਰਮੀ ਨਾਲ ਅਗਵਾਈ ਕਰ ਰਹੇ ਹਨ ਅਤੇ ਆਪਣੇ ਗਿਆਨ, ਚੰਗੇ ਤਜਰਬੇ ਅਤੇ ਉੱਚ ਯੋਗਤਾ ਰਾਹੀਂ ਵਧੀਆ ਢੰਗ ਨਾਲ ਪ੍ਰਬੰਧਨ ਕਰ ਰਹੇ ਹਨ। ਉਹ 2004 ਵਿੱਚ ਸੰਸਥਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਏ ਅਤੇ ਨਵੇਂ ਦ੍ਰਿਸ਼ਟੀਕੋਣ ਅਤੇ ਆਧੁਨਿਕ ਪਹੁੰਚ ਅਤੇ ਹੱਲਾਂ ਨਾਲ ਸਰਵੋਤਮ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਵਜੋਂ ਮਾਨਤਾ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਵੱਖ-ਵੱਖ ਇਤਿਹਾਸਕ ਪ੍ਰਾਪਤੀਆਂ ਕੀਤੀਆਂ ਹਨ। ਉਹ ਰਾਜਨੀਤਿਕ ਸੰਪਰਕਾਂ ਰਾਹੀਂ ਚੰਗੀ ਤਰ੍ਹਾਂ ਜੁੜੇ ਹੋਏ ਹਨ ਅਤੇ ਪੂਰੇ ਭਾਰਤ ਵਿੱਚ ਉਨ੍ਹਾਂ ਦਾ ਵਿਕਰੇਤਾ ਅਧਾਰ ਬਹੁਤ ਵੱਡਾ ਹੈ। ਉਹ ਦੂਰਦ੍ਰਿਸ਼ਟੀ ਅਤੇ ਉਤਸ਼ਾਹ ਵਾਲੇ ਵਿਅਕਤੀ ਹਨ ਅਤੇ ਹਮੇਸ਼ਾ ਜੋ ਵਾਅਦਾ ਕਰਦੇ ਹਨ, ਉਹ ਪੂਰਾ ਕਰਨ ਦਾ ਪ੍ਰਣ ਕਰਦੇ ਹਨ ਅਤੇ ਇਹ ਹੀ ਉਨ੍ਹਾਂ ਦੀ ਸਭ ਤੋਂ ਵਧੀਆ ਗੁਣਵੱਤਾ ਹੈ।"
+			}
+		},
+		"industries": {
+			"title": "ਅਸੀਂ ਕਿਹੜੀਆਂ ਉਦਯੋਗਾਂ ਨੂੰ ਸੇਵਾ ਦਿੰਦੇ ਹਾਂ",
+			"agri": {
+				"title": "ਕ੍ਰਿਸ਼ੀ ਅਤੇ Agri-Supply:",
+				"content": "Agri-input ਕੰਪਨੀਆਂ ਅਤੇ ਵਪਾਰੀ seasonal loads ਨੂੰ ਸਮੇਂ 'ਤੇ ਭੇਜਣ ਲਈ ਇਸ ਪਲੇਟਫਾਰਮ ਦਾ ਇਸਤੇਮਾਲ ਕਰਦੇ ਹਨ।"
+			},
+			"coldChain": {
+				"title": "ਕੋਲਡ ਚੇਨ ਅਤੇ ਨਾਜ਼ੁਕ ਸਮਾਨ:",
+				"content": "Food processors, pharma distributors ਅਤੇ dairy cooperatives temperature-control ਅਤੇ live tracking 'ਤੇ ਨਿਰਭਰ ਕਰਦੇ ਹਨ।"
+			},
+			"manufacturing": {
+				"title": "ਮੈਨੂਫੈਕਚਰਿੰਗ:",
+				"content": "ਫੈਕਟਰੀਆਂ inbound/outbound loads ਪੋਸਟ ਕਰਦੀਆਂ ਹਨ ਅਤੇ compliant carriers ਨਾਲ ਜੁੜਦੀਆਂ ਹਨ।"
+			},
+			"chemicals": {
+				"title": "ਕੈਮੀਕਲ ਅਤੇ ਨਿਯੰਤਰਿਤ ਸਮਾਨ:",
+				"content": "Chemical manufacturers regulated ਸਮੱਗਰੀ ਦੀ safe transportation ਲਈ route visibility ਵਰਤਦੇ ਹਨ।"
+			}
+		},
+		"values": {
+			"title": "ਮੁੱਖ ਮੁੱਲ",
+			"integrity": {
+				"title": "ਇਮਾਨਦਾਰੀ:",
+				"content": "ਅਸੀਂ ਉੱਚ ਨੈਤਿਕ ਮਿਆਰਾਂ ਦਾ ਪਾਲਣ ਕਰਦੇ ਹਾਂ ਅਤੇ ਭਰੋਸਾ ਬਣਾਉਂਦੇ ਹਾਂ।"
+			},
+			"excellence": {
+				"title": "ਉੱਤਮਤਾ:",
+				"content": "ਅਸੀਂ ਗਾਹਕਾਂ ਦੀ ਉਮੀਦਾਂ ਤੋਂ ਵੱਧ ਸੇਵਾ ਦੇਣ ਲਈ ਲਗਾਤਾਰ ਸੁਧਾਰ ਕਰਦੇ ਹਾਂ।"
+			},
+			"innovation": {
+				"title": "ਨਵੀਂਨਤਾ:",
+				"content": "ਅਸੀਂ ਆਧੁਨਿਕ technology ਵਰਤ ਕੇ logistics ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਵਧੀਆ ਬਣਾਉਂਦੇ ਹਾਂ।"
+			},
+			"customerFocus": {
+				"title": "ਗਾਹਕ ਕੇਂਦਰਿਤਤਾ:",
+				"content": "ਗਾਹਕ ਸਾਡੀ ਪ੍ਰਾਥਮਿਕਤਾ ਹਨ।"
+			},
+			"collaboration": {
+				"title": "ਸਹਿਯੋਗ:",
+				"content": "ਟੀਮਵਰਕ ਅਤੇ ਭਾਈਚਾਰੇ ਨਾਲ ਸਾਂਝੀ ਸਫਲਤਾ ਹਾਸਲ ਹੁੰਦੀ ਹੈ।"
+			}
+		}
+	},
+	"contact": {
+		"header": {
+			"title": "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+			"description": "ਕੋਈ ਪ੍ਰਸ਼ਨ ਹੈ ਜਾਂ ਸਹਾਇਤਾ ਚਾਹੀਦੀ ਹੈ? ਸਾਡੀ ਟੀਮ ਹਰ ਸਮੇਂ ਮਦਦ ਲਈ ਤਿਆਰ ਹੈ।"
+		},
+		"form": {
+			"name": "ਨਾਮ*",
+			"company": "ਕੰਪਨੀ ਦਾ ਨਾਮ",
+			"email": "ਈਮੇਲ*",
+			"phone": "ਫੋਨ",
+			"message": "ਸੁਨੇਹਾ*",
+			"send": "ਭੇਜੋ"
+		},
+		"office": {
+			"title": "ਕਾਰਪੋਰੇਟ ਦਫ਼ਤਰ",
+			"address": "609, Tower II, Pearls Omaxe, Netaji Subash Place, Pitampura, New Delhi - 110034, Delhi, INDIA."
+		},
+		"info": {
+			"title": "ਸੰਪਰਕ ਕਰੋ",
+			"email1": "cse@ustl.in",
+			"phone": "+91-9661829944"
+		},
+		"social": {
+			"follow": "ਸਾਨੂੰ Follow ਕਰੋ"
+		}
+	}
 }

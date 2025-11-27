@@ -16,7 +16,7 @@ const Contact = async ({ params }) => {
 	return (
 		<div>
 			{/* <Navbar /> */}
-			<div className="mt-20 w-full flex-col flex items-center py-6 text-2xl gap-4 px-2 bg-orange-100">
+			<div className="mt-[72px] w-full flex-col flex items-center py-6 text-2xl gap-4 px-2 bg-orange-100">
 				<h1
 					className={`${trispace.className} font-semibold text-yellow-950 tracking-tight md:text-4xl`}
 				>

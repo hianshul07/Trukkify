@@ -91,7 +91,19 @@
 		"leadership": {
 			"title": "Our Leadership",
 			"subtitle": "One Vision One Team",
-			"description": "We are a team of more than 46,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team."
+			"description": "We are a team of more than 46,000+ people across the globe working for a common purpose. We are led by one of India's most visionary Chairman who is supported by a talented and experienced management team.",
+			"viewMore": "View More",
+			"collapse": "Collapse",
+			"ceo": {
+				"name": "Mr. Purushottam P Singhal",
+				"title": "Chief Executive Officer",
+				"description": "CEO of the Company is well equipped with Experience shared by his Father Late Shri P.C.Singhal blog with high Qualified ( B.Com Hons, MBA - Logistics ) and working Since 1990 in the Organisation and has achieved several milestones in the last 26 years and completed various Job in PAN India in a most satisfactory manner under his Leadership. He is also Social Activist and has a good social reputation. He is a Trustee of “Sri Agarsen International Hospital “and part of various other Social Services to Society & possesses good expertise in handling & movement of critical & supercritical Jobs too."
+			},
+			"md": {
+				"name": "Dr. Uttam Singhal",
+				"title": "Managing Director",
+				"description": "Managing Director of the Company, B.Com (H) & MBA (Fin) had been actively leading all the Activities & managing well through his screwed knowledge, well experienced, high qualified & joined Organisation in 2004 and had achieved various Landmarked Achievement in recognized as best service providers with new Outlook & Modern approach & solutions. He is well connected through Political links & has a great span of vendor base all over India. He is a Person of Vision & enthusiasm & promised to deliver what he commits always & this is his best quality."
+			}
 		},
 		"industries": {
 			"title": "Industries We Serve",

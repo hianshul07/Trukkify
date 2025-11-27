@@ -21,3 +21,4 @@ export async function useTranslation(lng, ns, options = {}) {
     i18n: i18nextInstance
   }
 }
+

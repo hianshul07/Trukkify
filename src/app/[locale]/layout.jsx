@@ -2,7 +2,7 @@ import { languages } from '../i18n/settings';
 import '../globals.css';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
-import LanguageSwitcher from './LanguageSwitcher';
+import LanguageSwitcher from '../../components/LanguageSwitcher';
 
 export async function generateStaticParams() {
 	return languages.map((locale) => ({ locale }));

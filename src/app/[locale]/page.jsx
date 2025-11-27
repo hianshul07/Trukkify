@@ -4,7 +4,7 @@ import FeatureCard from '@/components/FeatureCard';
 import { ArrowUpRight } from 'lucide-react';
 import HowWorks from '@/components/HowWorks';
 import { useTranslation } from '../i18n';
-import LanguageSwitcher from './LanguageSwitcher';
+import LanguageSwitcher from '../../components/LanguageSwitcher';
 
 const trispace = Trispace({
 	display: 'swap',

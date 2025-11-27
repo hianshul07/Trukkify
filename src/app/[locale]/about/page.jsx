@@ -14,7 +14,7 @@ const About = async ({ params }) => {
 
 	return (
 		<div className="">
-			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-20">
+			{/* <div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-[72px]">
 				<Image
 					src="/team.JPG"
 					alt="TWI Team"
@@ -22,10 +22,10 @@ const About = async ({ params }) => {
 					className="object-cover"
 					priority
 				/>
-			</div>
+			</div> */}
 
 			{/* Header */}
-			<div className="w-full flex-col flex items-center py-6 gap-4 px-4 bg-orange-100">
+			<div className="w-full flex-col flex items-center py-6 gap-4 px-4 bg-orange-100 mt-[72px]">
 				<h1
 					className={`${trispace.className} font-semibold row-span-1 tracking-tight text-yellow-950 text-2xl text-center md:text-4xl`}
 				>
@@ -39,16 +39,16 @@ const About = async ({ params }) => {
 			{/* Leadership */}
 			<div className="flex flex-col items-center mb-16">
 				<h3
-					className={`${trispace.className} mt-8 mb-2 tracking-tight font-semibold text-2xl lg:text-4xl text-blue-800`}
+					className={`${trispace.className} mt-8 mb-2 tracking-tight text-center font-semibold text-2xl lg:text-4xl text-blue-800`}
 				>
 					{t('about.leadership.title')}
 				</h3>
 				<h4
-					className={`${trispace.className} mb-4 tracking-tight font-semibold textx lg:text-2xl text-gray-800`}
+					className={`${trispace.className} mb-4 tracking-tight font-semibold text lg:text-2xl text-gray-800`}
 				>
 					{t('about.leadership.subtitle')}
 				</h4>
-				<p className="text-gray-800 ml-8 mb-8 lg:max-w-2/4 lg:text-center text-2xl">
+				<p className="text-gray-800 ml-8 mb-8 lg:max-w-2/4 text-center text-2xl">
 					{t('about.leadership.description')}
 				</p>
 
