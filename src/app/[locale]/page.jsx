@@ -13,7 +13,6 @@ const trispace = Trispace({
 
 export default async function Page({ params }) {
 	const { locale } = await params;
-
 	// Updated namespace → homepage
 	const { t } = await useTranslation(locale, 'common');
 
