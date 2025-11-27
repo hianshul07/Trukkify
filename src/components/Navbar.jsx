@@ -37,7 +37,7 @@ const Navbar = ({ locale = 'en' }) => {
 					<div
 						className={`${trispace.className} md:text-3xl font-bold tracking-widest text-blue-800`}
 					>
-						<Link href="/" className="text-2xl">
+						<Link href={`/${locale}`} className="text-2xl">
 							{t('nav.brand')}
 						</Link>
 					</div>
