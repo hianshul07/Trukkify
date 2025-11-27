@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "ഹോം",
+    "about": "ഞങ്ങളെ കുറിച്ച്",
+    "contact": "ബന്ധപ്പെടുക",
+    "buttonContact": "ബന്ധപ്പെടുക",
+    "brand": "Trukkify"
+  },
+  "footer": {
+    "brand": "Transport Wings India",
+    "about": "ഞങ്ങളെ കുറിച്ച്",
+    "services": "സേവനങ്ങൾ",
+    "contact": "ബന്ധപ്പെടുക",
+    "address": "609, 610, 1110 പെർൾസ് ഓമാക്സ് ടവർ-2,\nനെതാജി സുഭാഷ് പ്ലേസ്, പിതംപുര,\nഡെൽഹി - 110034",
+    "hours": "തിങ്കൾ - ശനി: 9:00 - 18:00"
+  },
+  "homepage": {
+    "hero": {
+      "imageAlt": "കടൽത്തീരം ചേർന്ന ഹൈവേയിൽ സഞ്ചരിക്കുന്ന ഫ്രെയിറ്റ് ട്രക്ക്",
+      "subtitle": "നിങ്ങളുടെ Freight പ്രവർത്തനങ്ങൾ ലളിതമാക്കുക",
+      "title": "Trukkify"
+    },
+    "tagline": {
+      "main": "സ്മാർട്ട് ലജിസ്റ്റിക്സ്. തടസ്സമില്ലാത്ത ഡെലിവറി.",
+      "description": "TWI Exchange ഉപഭോക്താക്കളെ ഇന്ത്യയിലുടനീളമുള്ള വിശ്വസനീയമായ ട്രക്ക് ഡ്രൈവർമാരുമായി ബന്ധിപ്പിക്കുന്നു. Contract, Delivery, Communication — എല്ലാം ഒരൊറ്റ streamlined logistics ആപ്പിൽ."
+    },
+    "carriers": {
+      "label": "Carriers വേണ്ടി",
+      "title": "ഒരുക്കം. ഡെലിവറി. വളർച്ച.",
+      "description": "TWI Exchange വഴി അവസരങ്ങൾ വേഗത്തിൽ കണ്ടെത്തുക, ആശയവിനിമയം മെച്ചപ്പെടുത്തുക, വിശ്വസനീയമായ പേയ്മെന്റുകൾ നേടുക. ഡ്രൈവർമാരുമായി ബന്ധത്തിലിരിക്കുക, ട്രിപ്പുകൾ ട്രാക്ക് ചെയ്യുക, നിങ്ങളുടെ logistics വ്യാപാരം വികസിപ്പിക്കുക.",
+      "cta": "ഇപ്പോൾ ചേരുക",
+      "imageAlt": "Exchange Trip Management App"
+    },
+    "customers": {
+      "label": "Customers വേണ്ടി",
+      "title": "പോസ്റ്റ് ചെയ്യുക. മാച്ച് ചെയ്യുക. നിരീക്ഷിക്കുക.",
+      "description": "TWI Exchange ഉപയോഗിച്ച് verified ഡ്രൈവർമാരെ കണ്ടെത്തുക, സുരക്ഷിത Contract സൃഷ്ടിക്കുക, cargo realtime-ൽ ട്രാക്ക് ചെയ്യുക.",
+      "cta": "ഇപ്പോൾ ചേരുക",
+      "imageAlt": "Customer Dashboard"
+    },
+    "businessModel": {
+      "alt": "ബിസിനസ് മോഡൽ"
+    },
+    "features": {
+      "title": "പ്രധാന ഗുണങ്ങൾ",
+      "feature1": {
+        "title": "1. എപ്പോൾ വേണമെങ്കിലും, എവിടെ വേണമെങ്കിലും ബുക്ക് ചെയ്യാം",
+        "content": "ഏത് ഉപകരണത്തിൽ നിന്നുമെങ്കിലും Shipment പോസ്റ്റ് ചെയ്യാം. Verified ഡ്രൈവർമാരുമായി ഉടൻ മാച്ച് ചെയ്യും."
+      },
+      "feature2": {
+        "title": "2. Bidding & വില ചർച്ച",
+        "content": "Realtime-ൽ ന്യായമായ റേറ്റുകൾക്ക് ചർച്ച നടത്താം — ഇടനിലക്കാരില്ല."
+      },
+      "feature3": {
+        "title": "3. 24/7 കസ്റ്റമർ സപ്പോർട്ട്",
+        "content": "എപ്പോഴും സഹായം ലഭ്യമാണ്. ഞങ്ങളുടെ ടീം എല്ലായ്പ്പോഴും ഓൺലൈനിലാണ്."
+      },
+      "feature4": {
+        "title": "4. Smart Analytics & Reports",
+        "content": "ഡെലിവറി സമയം, പ്രകടനം, ട്രെൻഡുകൾ realtime-ൽ കാണുക."
+      },
+      "feature5": {
+        "title": "5. Digital Contract Management",
+        "content": "Contracts എളുപ്പത്തിൽ സൃഷ്ടിക്കുകയും മാനേജ് ചെയ്യുകയും ചെയ്യാം."
+      },
+      "feature6": {
+        "title": "6. ലളിതവും ശുദ്ധവുമായ UI",
+        "content": "Shipment, Contract, Tasks എന്നിവയിലേക്കുള്ള ആക്സസ് അതിവേഗം."
+      }
+    },
+    "howItWorks": {
+      "title": "Truckyyy എങ്ങനെ പ്രവർത്തിക്കുന്നു",
+      "step1": "നിങ്ങളുടെ പ്രൊഫൈൽ സജ്ജമാക്കി Shipment മാനേജ് ചെയ്യൽ ആരംഭിക്കുക",
+      "step2": "എല്ലാ logistics ഡാറ്റയും ഒരു Dashboard-ലേക്ക് ക്രമീകരിക്കുക",
+      "step3": "എല്ലാ മൂവ്‌മെന്റും ട്രാക്ക് ചെയ്ത് ആപ്പിൽ നേരിട്ട് ആശയവിനിമയം നടത്തുക"
+    },
+    "download": {
+      "title": "Truckyyy ഇപ്പോൾ ഡൗൺലോഡ് ചെയ്യുക",
+      "description": "Shipment, Contract, Fleet operations എന്നിവ മൊബൈലിൽ നിന്ന് മാനേജ് ചെയ്യുക. Android, iOS രണ്ടിലും ലഭ്യമാണ്.",
+      "androidAlt": "Android സ്റ്റോർ ലോഗോ",
+      "iosAlt": "iOS സ്റ്റോർ ലോഗോ",
+      "downloadNow": "ഡൗൺലോഡ് ചെയ്യുക",
+      "comingSoon": "വേഗത്തിൽ എത്തും"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Transport Wings (Cal) Pvt. Ltd",
+      "description": "Transport Wings (Cal) Pvt. Ltd. 66 വർഷത്തിലേറെയായി ലജിസ്റ്റിക്സ് മേഖലയിലെ മുൻനിരയിൽ. ഇന്ത്യയിലുടനീളം cargo അയയ്ക്കുന്നതിലെ വെല്ലുവിളികൾ പരിചയസമ്പന്നമായ TWI ടീമിനെ കൂടുതൽ ശക്തമാക്കുന്നു."
+    },
+    "leadership": {
+      "title": "ഞങ്ങളുടെ ലീഡർഷിപ്പ്",
+      "subtitle": "ഒരു ദൃഷ്ടി. ഒരു ടീം.",
+      "description": "ഞങ്ങൾ 46,000+ അംഗങ്ങളുള്ള ഒരു ഗ്ലോബൽ ടീമാണ്. ഇന്ത്യയിലെ visionary Chairman-ന്റെയും അനുഭവ സമ്പന്നരായ മാനേജ്മെന്റ് ടീമിന്റെയും നേതൃത്വത്തിലാണ്."
+    },
+    "industries": {
+      "title": "ഞങ്ങൾ സേവനം ചെയ്യുന്ന വ്യവസായങ്ങൾ",
+      "agri": {
+        "title": "കൃഷി & Agri-Supply:",
+        "content": "Agri-input കമ്പനികളും വ്യാപാരികളും seasonal loads സമയബന്ധിതമായി അയയ്ക്കാൻ ഈ പ്ലാറ്റ്ഫോം ഉപയോഗിക്കുന്നു."
+      },
+      "coldChain": {
+        "title": "Cold Chain & നശ്വര വസ്തുക്കൾ:",
+        "content": "Food processors, pharma distributors, dairy cooperatives എന്നിവ temperature-aware transport & live tracking ആശ്രയിക്കുന്നു."
+      },
+      "manufacturing": {
+        "title": "Manufacturing:",
+        "content": "Factories inbound/outbound loads പോസ്റ്റ് ചെയ്ത് compliant carriers-നൊപ്പം match ചെയ്യുന്നു."
+      },
+      "chemicals": {
+        "title": "Chemicals & നിയന്ത്രിത സാധനങ്ങൾ:",
+        "content": "Chemical manufacturers സുരക്ഷിതമായ ഗതാഗതത്തിനായി route visibility & documentation ഉപയോഗിക്കുന്നു."
+      }
+    },
+    "values": {
+      "title": "പ്രധാന മൂല്യങ്ങൾ",
+      "integrity": {
+        "title": "നിഷ്ഠ:",
+        "content": "ഉയർന്ന നൈതിക മാനദണ്ഡങ്ങൾ പാലിച്ച് വിശ്വാസം നിർമ്മിക്കുന്നു."
+      },
+      "excellence": {
+        "title": "മികവ്:",
+        "content": "ഉത്തമ സേവനങ്ങൾക്കായി നിരന്തരം മെച്ചപ്പെടുത്തുന്നു."
+      },
+      "innovation": {
+        "title": "നവീകരണം:",
+        "content": "ആധുനിക technology ഉപയോഗിച്ച് logistics കാര്യക്ഷമമാക്കുന്നു."
+      },
+      "customerFocus": {
+        "title": "ഉപഭോക്തൃ കേന്ദ്രീകൃതത:",
+        "content": "ഉപഭോക്താക്കളുടെ ആവശ്യങ്ങൾ മനസിലാക്കി ശരിയായ പരിഹാരം നൽകുന്നു."
+      },
+      "collaboration": {
+        "title": "സഹകരണം:",
+        "content": "ടീം വർക്ക് & പങ്കാളിത്തം വിജയത്തിന്റെ അടിസ്ഥാനം."
+      }
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "ഞങ്ങളുമായി ബന്ധപ്പെടുക",
+      "description": "ചോദ്യം ഉണ്ടോ? സഹായം വേണോ? ഞങ്ങളുടെ ടീം എപ്പോഴും സഹായത്തിന് തയ്യാറാണ്."
+    },
+    "form": {
+      "name": "പേര്*",
+      "company": "കമ്പനിയുടെ പേര്",
+      "email": "ഇമെയിൽ*",
+      "phone": "ഫോൺ",
+      "message": "സന്ദേശം*",
+      "send": "അയയ്ക്കുക"
+    },
+    "office": {
+      "title": "കോർപ്പറേറ്റ് ഓഫീസ്",
+      "address": "609, Tower II, Pearls Omaxe, Netaji Subash Place, Pitampura, New Delhi - 110034, Delhi, INDIA."
+    },
+    "info": {
+      "title": "ബന്ധപ്പെടുക",
+      "email1": "cse@ustl.in",
+      "phone": "+91-9661829944"
+    },
+    "social": {
+      "follow": "ഞങ്ങളെ Follow ചെയ്യുക"
+    }
+  }
+}

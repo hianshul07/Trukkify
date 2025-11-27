@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "ಮುಖಪುಟ",
+    "about": "ನಮ್ಮ ಬಗ್ಗೆ",
+    "contact": "ಸಂಪರ್ಕ",
+    "buttonContact": "ಸಂಪರ್ಕ",
+    "brand": "Trukkify"
+  },
+  "footer": {
+    "brand": "Transport Wings India",
+    "about": "ನಮ್ಮ ಬಗ್ಗೆ",
+    "services": "ಸೇವೆಗಳು",
+    "contact": "ಸಂಪರ್ಕ",
+    "address": "609, 610, 1110 ಪರ್ಳ್ಸ್ ಓಮ್ಯಾಕ್ಸ್ ಟವರ್-2,\nನೇತಾಜಿ ಸುಭಾಷ್ ಪ್ಲೇಸ್, ಪಿತಾಂಪುರ,\nದೆಹಲಿ - 110034",
+    "hours": "ಸೋಮ - ಶನಿ: 9:00 - 18:00"
+  },
+  "homepage": {
+    "hero": {
+      "imageAlt": "ಸಮುದ್ರ ತೀರದ ಹೆದ್ದಾರಿಯಲ್ಲಿ ಸಾಗುತ್ತಿರುವ ಫ್ರೈಟ್ ಟ್ರಕ್",
+      "subtitle": "ನಿಮ್ಮ Freight ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಸರಳಗೊಳಿಸಿ",
+      "title": "Trukkify"
+    },
+    "tagline": {
+      "main": "ಸ್ಮಾರ್ಟ್ ಲಾಜಿಸ್ಟಿಕ್ಸ್. ನಿರಂತರ ಡೆಲಿವರಿ.",
+      "description": "TWI Exchange ಭಾರತದೆಲ್ಲೆಡೆಗಿರುವ ನಂಬಲರ್ಹ ಟ್ರಕ್ ಚಾಲಕರನ್ನು ಗ್ರಾಹಕರೊಂದಿಗೆ ಸಂಪರ್ಕಿಸುತ್ತದೆ. Contract, Delivery, Communication — ಎಲ್ಲವೂ ಒಂದೇ streamlined logistics ಅಪ್‌ನಲ್ಲಿ."
+    },
+    "carriers": {
+      "label": "Carriers ಗಾಗಿ",
+      "title": "ಸಮನ್ವಯ. ಡೆಲಿವರ್. ಬೆಳವಣಿಗೆ.",
+      "description": "TWI Exchange ಮೂಲಕ ಅವಕಾಶಗಳನ್ನು ವೇಗವಾಗಿ ಕಂಡುಹಿಡಿಯಿರಿ, ಸಂಪರ್ಕ ಸುಧಾರಿಸಿ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹ ಪಾವತಿಗಳನ್ನು ಪಡೆಯಿರಿ. ಚಾಲಕರ ಜೊತೆಗೆ ಸಂಪರ್ಕಿತರಾಗಿರಿ ಮತ್ತು ನಿಮ್ಮ logistics ವ್ಯವಹಾರವನ್ನು ಹೆಚ್ಚಿಸಿ.",
+      "cta": "ಈಗ ಸೇರಿ",
+      "imageAlt": "Exchange Trip Management App"
+    },
+    "customers": {
+      "label": "Customers ಗಾಗಿ",
+      "title": "ಪೋಸ್ಟ್. ಮ್ಯಾಚ್. ಟ್ರ್ಯಾಕ್.",
+      "description": "TWI Exchange ಮೂಲಕ verified ಚಾಲಕರನ್ನು ಹುಡುಕಿ, ಸುರಕ್ಷಿತ Contract ಸೃಷ್ಟಿಸಿ ಮತ್ತು cargo realtime ನಲ್ಲಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ.",
+      "cta": "ಈಗ ಸೇರಿ",
+      "imageAlt": "Customer Dashboard"
+    },
+    "businessModel": {
+      "alt": "ಬಿಸಿನೆಸ್ ಮಾದರಿ"
+    },
+    "features": {
+      "title": "ಮುಖ್ಯ ಲಾಭಗಳು",
+      "feature1": {
+        "title": "1. ಎಲ್ಲಿಂದಲಾದರೂ, ಯಾವಾಗಲಾದರೂ ಬುಕ್ ಮಾಡಿ",
+        "content": "ಯಾವುದೇ ಸಾಧನದಿಂದ Shipment ಪೋಸ್ಟ್ ಮಾಡಿ. Verified ಚಾಲಕರೊಂದಿಗೆ ತಕ್ಷಣ ಮ್ಯಾಚ್ ಆಗುತ್ತದೆ."
+      },
+      "feature2": {
+        "title": "2. Bidding & ದರ ಮಾತುಕತೆ",
+        "content": "Realtime ನಲ್ಲಿ ನ್ಯಾಯಸಮ್ಮತ ದರಗಳಿಗಾಗಿ ಮಾತುಕತೆ — ಯಾರೂ ಮಧ್ಯವರ್ತಿಗಳಿಲ್ಲ."
+      },
+      "feature3": {
+        "title": "3. 24/7 ಗ್ರಾಹಕ ಸಹಾಯ",
+        "content": "ಯಾವಾಗ ಬೇಕಾದರೂ ಸಹಾಯ ಲಭ್ಯ. ನಮ್ಮ ತಂಡ ಸದಾ ಸಿದ್ದ."
+      },
+      "feature4": {
+        "title": "4. Smart Analytics & Reports",
+        "content": "ಡೆಲಿವರಿ ಸಮಯ, ಕಾರ್ಯಕ್ಷಮತೆ ಮತ್ತು ಟ್ರೆಂಡ್‌ಗಳನ್ನು realtime ನಲ್ಲಿ ನೋಡಿ."
+      },
+      "feature5": {
+        "title": "5. Digital Contract Management",
+        "content": "Contracts ಹಗುರವಾಗಿ ರಚಿಸಿ ಮತ್ತು ನಿರ್ವಹಿಸಿ."
+      },
+      "feature6": {
+        "title": "6. ಸರಳ ಮತ್ತು ಸ್ವಚ್ಛ UI",
+        "content": "Shipment, Contract ಮತ್ತು Tasks ಗೆ ವೇಗವಾದ ಪ್ರವೇಶ."
+      }
+    },
+    "howItWorks": {
+      "title": "Truckyyy ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
+      "step1": "ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ರಚಿಸಿ ಮತ್ತು Shipment ನಿರ್ವಹಣೆ ಪ್ರಾರಂಭಿಸಿ",
+      "step2": "ಎಲ್ಲ logistics ಮಾಹಿತಿಯನ್ನು ಒಂದೇ Dashboard ನಲ್ಲಿ ಒಗ್ಗೂಡಿಸಿ",
+      "step3": "ಪ್ರತಿ ಚಲನವಲನವನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ಅಪ್ ಒಳಗೆ ಸಂವಹನ ಮಾಡಿ"
+    },
+    "download": {
+      "title": "Truckyyy ಈಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "description": "Shipment, Contract ಮತ್ತು Fleet operations ಅನ್ನು ನಿಮ್ಮ ಮೊಬೈಲ್‌ನಿಂದಲೇ ನಿರ್ವಹಿಸಿ. Android ಮತ್ತು iOS ಎರಡರಲ್ಲೂ ಲಭ್ಯ.",
+      "androidAlt": "Android ಸ್ಟೋರ್ ಲೋಗೋ",
+      "iosAlt": "iOS ಸ್ಟೋರ್ ಲೋಗೋ",
+      "downloadNow": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "comingSoon": "ಶೀಘ್ರದಲ್ಲೇ"
+    }
+  },
+  "about": {
+    "header": {
+      "title": "About Transport Wings (Cal) Pvt. Ltd",
+      "description": "Transport Wings (Cal) Pvt. Ltd. ಕಳೆದ 66 ವರ್ಷಗಳಿಂದ logistics ಕ್ಷೇತ್ರದಲ್ಲಿ ಪ್ರಮುಖ ಸಂಸ್ಥೆಯಾಗಿದ್ದು, ಭಾರತದೆಲ್ಲೆಡೆ ಕಾರ್ಗೋ ಸಾಗಾಣಿಕೆಯಲ್ಲಿ ಉಂಟಾಗುವ ಸವಾಲುಗಳನ್ನು ಅನುಭವಸಂಪನ್ನ ತಂಡದೊಂದಿಗೆ ಪರಿಣಾಮಕಾರಿಯಾಗಿ ನಿರ್ವಹಿಸಿದೆ."
+    },
+    "leadership": {
+      "title": "ನಮ್ಮ ನಾಯಕತ್ವ",
+      "subtitle": "ಒಂದು ದೃಷ್ಟಿ, ಒಂದು ತಂಡ",
+      "description": "ನಾವು 46,000+ ಸದಸ್ಯರ ಜಾಗತಿಕ ತಂಡ. ಭಾರತದ visionary Chairman ಮತ್ತು ಅನುಭವಿಷ್ಠ ಮ್ಯಾನೇಜ್ಮೆಂಟ್ ತಂಡದ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿದ್ದೇವೆ."
+    },
+    "industries": {
+      "title": "ನಾವು ಸೇವೆ ನೀಡುವ ಉದ್ಯಮಗಳು",
+      "agri": {
+        "title": "ಕೃಷಿ & Agri-Supply:",
+        "content": "Agri-input ಕಂಪನಿಗಳು ಮತ್ತು ವ್ಯಾಪಾರಿಗಳು seasonal loads ಸಮಯಕ್ಕೆ ಕಳುಹಿಸಲು ಈ platform ಬಳಸುತ್ತಾರೆ."
+      },
+      "coldChain": {
+        "title": "Cold Chain & ನಾಶವಾಗುವ ವಸ್ತುಗಳು:",
+        "content": "Food processors, pharma distributors ಮತ್ತು dairy cooperatives live tracking ಮತ್ತು температур ನಿಯಂತ್ರಿತ ಸಾರಿಗೆ ಬಳಸುತ್ತಾರೆ."
+      },
+      "manufacturing": {
+        "title": "Manufacturing:",
+        "content": "Factories inbound/outbound loads ಪೋಸ್ಟ್ ಮಾಡಿ compliant carriers ಜೊತೆ ಮ್ಯಾಚ್ ಆಗುತ್ತವೆ."
+      },
+      "chemicals": {
+        "title": "Chemicals & ನಿಯಂತ್ರಿತ ವಸ್ತುಗಳು:",
+        "content": "Chemical manufacturers ಸಾಗಣೆಯ ಸುರಕ್ಷತೆಗೆ route visibility ಮತ್ತು documentation ಬಳಸುತ್ತಾರೆ."
+      }
+    },
+    "values": {
+      "title": "ಮೂಲ್ಯಗಳು",
+      "integrity": {
+        "title": "ಪ್ರಾಮಾಣಿಕತೆ:",
+        "content": "ನಾವು ಉನ್ನತ ನೈತಿಕ ಪ್ರಮಾಣಗಳನ್ನು ಪಾಲಿಸುತ್ತೇವೆ ಮತ್ತು ವಿಶ್ವಾಸವನ್ನು ನಿರ್ಮಿಸುತ್ತೇವೆ."
+      },
+      "excellence": {
+        "title": "ಉತ್ತಮತೆ:",
+        "content": "ಗ್ರಾಹಕರ ನಿರೀಕ್ಷೆಗಿಂತ ಮೇಲು ಸೇವೆ ನೀಡಲು ನಿರಂತರ ಸುಧಾರಣೆ."
+      },
+      "innovation": {
+        "title": "ನವೀನತೆ:",
+        "content": "ಆಧುನಿಕ ತಾಂತ್ರಿಕತೆ ಬಳಸಿ logistics ಸುಧಾರಣೆ."
+      },
+      "customerFocus": {
+        "title": "ಗ್ರಾಹಕ ಕೇಂದ್ರಿತತೆ:",
+        "content": "ಗ್ರಾಹಕರ ಅಗತ್ಯಗಳನ್ನು ಮನಗಂಡು ಸರಿಯಾದ ಪರಿಹಾರ ಒದಗಿಸುವುದು."
+      },
+      "collaboration": {
+        "title": "ಸಹಕಾರ:",
+        "content": "ತಂಡಭಾವ ಮತ್ತು ಸಹಭಾಗಿತ್ವ ಯಶಸ್ಸಿನ ಪ್ರಮುಖ ಅಂಶ."
+      }
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+      "description": "ಪ್ರಶ್ನೆಯಿದೆಯೇ? ಸಹಾಯ ಬೇಕೇ? ನಮ್ಮ ತಂಡ ಯಾವಾಗಲೂ ಸಹಾಯಕ್ಕೆ ಸಿದ್ಧವಾಗಿದೆ."
+    },
+    "form": {
+      "name": "ಹೆಸರು*",
+      "company": "ಕಂಪನಿಯ ಹೆಸರು",
+      "email": "ಇಮೇಲ್*",
+      "phone": "ಫೋನ್",
+      "message": "ಸಂದೇಶ*",
+      "send": "ಕಳುಹಿಸಿ"
+    },
+    "office": {
+      "title": "ಕೋರ್ಪೊರೇಟ್ ಕಚೇರಿ",
+      "address": "609, Tower II, Pearls Omaxe, Netaji Subash Place, Pitampura, New Delhi - 110034, Delhi, INDIA."
+    },
+    "info": {
+      "title": "ಸಂಪರ್ಕ",
+      "email1": "cse@ustl.in",
+      "phone": "+91-9661829944"
+    },
+    "social": {
+      "follow": "ನಮಗೆ Follow ಮಾಡಿ"
+    }
+  }
+}
