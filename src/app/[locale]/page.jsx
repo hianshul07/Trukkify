@@ -5,6 +5,7 @@ import { ArrowUpRight } from 'lucide-react';
 import HowWorks from '@/components/HowWorks';
 import { useTranslation } from '../i18n';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
+import Link from 'next/link';
 
 const trispace = Trispace({
 	display: 'swap',
@@ -79,9 +80,11 @@ export default async function Page({ params }) {
 						<p className="text-center lg:text-left text-xl text-gray-700 mb-6">
 							{t('homepage.carriers.description')}
 						</p>
-						<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold w-fit hover:bg-blue-700">
-							{t('homepage.carriers.cta')} <ArrowUpRight size={28} />
-						</button>
+						<Link href={`/${locale}/demo-driver`}>
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer hover:scale-105 transition-all  w-fit hover:bg-blue-700">
+								{t('homepage.carriers.cta')} <ArrowUpRight size={28} />
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -111,9 +114,11 @@ export default async function Page({ params }) {
 						<p className="text-center lg:text-right text-xl text-gray-700 mb-6">
 							{t('homepage.customers.description')}
 						</p>
-						<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold w-fit hover:bg-blue-700">
-							{t('homepage.customers.cta')} <ArrowUpRight size={28} />
-						</button>
+						<Link href={`/${locale}/demo-customer`}>
+							<button className="flex gap-2 items-center bg-blue-600 text-white px-6 py-3 rounded-md text-xl font-semibold hover:cursor-pointer transition-all w-fit hover:bg-blue-700">
+								{t('homepage.customers.cta')} <ArrowUpRight size={28} />
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>

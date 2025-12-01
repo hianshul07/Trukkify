@@ -173,5 +173,77 @@
 		"social": {
 			"follow": "Follow us on"
 		}
+	},
+	"driver": {
+		"hero": {
+			"title": "Built for Drivers Who Move India",
+			"description": "From trip planning to payments, every feature is designed to simplify your day and grow your earnings."
+		},
+		"steps": {
+			"step1": {
+				"title": "1. Login & Ready to Roll",
+				"description": "Step in and unlock your driver dashboard. Trips, earnings, and documents - all in one place."
+			},
+			"step2": {
+				"title": "2. Build Your Profile, Build Trust",
+				"description": "Add your name, documents, and driving details in minutes. Get verified and start receiving trip offers faster."
+			},
+			"step3": {
+				"title": "3. New Trips, Fresh Opportunities",
+				"description": "Get notified when new loads are available. Review details, accept instantly, and keep your wheels moving."
+			},
+			"step4": {
+				"title": "4. Negotiate Your Way",
+				"description": "Add annotations, arrows, or any final elements. The result is a clear visual guide."
+			},
+			"step5": {
+				"title": "5. Everything You Need, In One View",
+				"description": "From pickup to drop-off, see all trip info — route, stops, documents, and instructions — without the back-and-forth."
+			},
+			"step6": {
+				"title": "6. Your Earnings, In Your Pocket",
+				"description": "Track payments, view balances, and withdraw at your convenience. No middlemen, no guesswork - just clear, fast access to your money."
+			},
+			"step7": {
+				"title": "7. Keep Documents Secure",
+				"description": "Securely store PAN, Aadhaar, and trip documents in one place. Share with shippers instantly - no re-uploading, no delays."
+			},
+			"navigation": {
+				"previous": "Previous",
+				"next": "Next"
+			}
+		}
+	},
+	"customer": {
+		"hero": {
+			"title": "Built for Businesses That Ship with Confidence",
+			"description": "From posting loads to tracking deliveries, every feature is designed to give you control, transparency, and peace of mind."
+		},
+		"steps": {
+			"step1": {
+				"title": "1. Create Profile & Start Shipping",
+				"description": "Set up your business details, verify your identity, and unlock full access to trip posting, driver matching, and real-time tracking."
+			},
+			"step2": {
+				"title": "2. Your Profile, Your Control",
+				"description": "Manage your business details, contact info, and preferences in one place. Build trust with verified credentials and a complete profile."
+			},
+			"step3": {
+				"title": "3. Your Cargo, Your Price",
+				"description": "Set your rate, receive driver counters, and finalize deals that work for you. Transparent, flexible, and in your control."
+			},
+			"step4": {
+				"title": "4. Keep Every Trip on Track",
+				"description": "Monitor live trips with real-time updates on location, status, and driver activity. Stay informed from pickup to delivery."
+			},
+			"step5": {
+				"title": "5. Wallet & Rewards",
+				"description": "Track payments, earn rewards, and manage your spending - all in one place. Every trip adds value."
+			},
+			"navigation": {
+				"previous": "Previous",
+				"next": "Next"
+			}
+		}
 	}
 }
