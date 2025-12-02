@@ -6,6 +6,7 @@ import HowWorks from '@/components/HowWorks';
 import { useTranslation } from '../i18n';
 import LanguageSwitcher from '../../components/LanguageSwitcher';
 import Link from 'next/link';
+// import HeroVideo from '/her-'
 
 const trispace = Trispace({
 	display: 'swap',
@@ -21,7 +22,7 @@ export default async function Page({ params }) {
 		<div className="overflow-hidden">
 			{/* <Navbar params={params}/> */}
 			{/* Hero section */}
-			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-[72px]">
+			{/* <div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-[72px]">
 				<Image
 					src="/heroImage.png"
 					alt={t('homepage.hero.imageAlt')}
@@ -31,6 +32,34 @@ export default async function Page({ params }) {
 				/>
 
 				<div className="absolute top-8 lg:top-20 left-0 w-full px-6 py-4 bg-white/40 lg:bg-white/70 backdrop-blur-sm text-center">
+					<h2 className="text-xl lg:text-3xl text-gray-800">
+						{t('homepage.hero.subtitle')}
+					</h2>
+					<h1
+						className={`${trispace.className} tracking-tight text-3xl md:text-4xl font-semibold text-blue-700 mt-1`}
+					>
+						{t('homepage.hero.title')}
+					</h1>
+				</div>
+			</div> */}
+			
+			{/* temporary */}
+			<div className="relative w-full h-[400px] lg:h-[1000px] overflow-hidden mt-[72px]">
+				{/* Background Video */}
+				<video
+					className="absolute top-0 left-0 w-full h-full object-cover"
+					autoPlay
+					loop
+					muted
+					playsInline
+					src="/hero-video.mp4" // Optional: Good fallback if video loads slowly
+				>
+					<source src="/VN20250929_152823.mp4" type="video/mp4" />
+					Your browser does not support the video tag.
+				</video>
+
+				{/* Overlay Text */}
+				<div className="absolute top-8 lg:top-20 left-0 w-full px-6 py-4 bg-white/40 lg:bg-white/70 backdrop-blur-sm text-center z-10">
 					<h2 className="text-xl lg:text-3xl text-gray-800">
 						{t('homepage.hero.subtitle')}
 					</h2>
