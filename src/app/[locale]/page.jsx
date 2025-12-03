@@ -54,7 +54,7 @@ export default async function Page({ params }) {
 					playsInline
 					src="/hero-video.mp4" // Optional: Good fallback if video loads slowly
 				>
-					<source src="/VN20250929_152823.mp4" type="video/mp4" />
+					<source src="/hero-video.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
 				</video>
 
