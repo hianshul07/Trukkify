@@ -52,7 +52,7 @@ export default async function Page({ params }) {
 					loop
 					muted
 					playsInline
-					src="/hero-video.mp4" // Optional: Good fallback if video loads slowly
+					src="https://res.cloudinary.com/dnba1nph2/video/upload/v1764764414/hero-video_phjdq2.mp4" // Optional: Good fallback if video loads slowly
 				>
 					<source src="/hero-video.mp4" type="video/mp4" />
 					Your browser does not support the video tag.
